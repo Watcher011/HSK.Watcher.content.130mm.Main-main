@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Trap2_Frag</defName>
+		<label>Коробка с Противопехотными минами</label>
+		<description>Коробка мин.Взрывоопасно</description>
+		<graphicData>
+			<texPath>Things/Building/MinBoxFR</texPath>
+		   <graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1.2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>6</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>bio_container</defName>
+		<label>Коробка с чумным патогеном</label>
+		<description>Чумной патоген , крайне опасен.(Хранить в холоде)</description>
+		<graphicData>
+			<texPath>Things/Building/Bio</texPath>
+		    <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.5,0.7)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<MarketValue>900</MarketValue>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		    <DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.4</explosiveRadius>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<explosiveDamageType>BioGas</explosiveDamageType>
+				<preExplosionSpawnThingDef>Bio_Smoke</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+			
+          <li Class="CompProperties_Rottable">
+        <daysToRotStart>1.5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+         </li>
+   
+		</comps>
+		<thingCategories>
+			 <li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>make 155mm WhitePhosphorus howitzer shells x1</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>Craft 155mm WhitePhosphorus Howitzer shell.</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>Making 155mm WhitePhosphorus Howitzer shell.</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>
+
+
+</LanguageData>

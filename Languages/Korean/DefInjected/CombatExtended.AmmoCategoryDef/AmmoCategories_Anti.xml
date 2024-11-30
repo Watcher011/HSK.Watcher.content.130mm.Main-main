@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ANTI.label>반물질</ANTI.label>
+  <ANTI.labelShort>안티</ANTI.labelShort>
+  <ANTI.description>반물질은 자연계에서 일관되게 형성되지 않는 반입자로 구성된 물질입니다.</ANTI.description>
+
+  <Mine.label>광산 시스템</Mine.label>
+  <Mine.labelShort>CM</Mine.labelShort>
+  <Mine.description>원격 채굴 시스템 - 특히 위험한 방향에 지뢰밭을 빠르게 생성하도록 설계되었습니다.</Mine.description>
+
+  <FLMine.label>시스템 재설정</FLMine.label>
+  <FLMine.labelShort>SAT</FLMine.labelShort>
+  <FLMine.description>원격 수류탄 투하 시스템.</FLMine.description>
+
+  <FLEmi.label>EMR 억제 시스템</FLEmi.label>
+  <FLEmi.labelShort>EMIP 포함</FLEmi.labelShort>
+  <FLEmi.description>EMI 전파 방해 시스템.</FLEmi.description>
+
+  <WPH.label>백린(WPH)</WPH.label>
+  <WPH.labelShort>WPH</WPH.labelShort>
+  <WPH.description>인 탄약.</WPH.description>
+
+  <DD.label>DeadlifeDust</DD.label>
+  <DD.labelShort>DD</DD.labelShort>
+  <DD.description>죽은 생명의 먼지</DD.description>
+
+<Bio.label>바이오 무기</Bio.label>
+ <Bio.labelShort>바이오</Bio.labelShort>
+ <Bio.description>생물학적 무기는 살아있는 유기체나 감염성 미생물의 확산을 통해 인간, 동물 또는 식물에 질병이나 사망을 초래하는 대량 살상 무기입니다.</Bio.description>
+</LanguageData>

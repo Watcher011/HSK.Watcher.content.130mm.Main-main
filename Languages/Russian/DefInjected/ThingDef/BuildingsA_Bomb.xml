@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WhitePhosphorusBomb.label>Фософорная бомба</WhitePhosphorusBomb.label>
+  <WhitePhosphorusBomb.description>Фософорная бомба</WhitePhosphorusBomb.description>
+  <WhitePhosphorusBomb.comps.0.useLabel>Запал</WhitePhosphorusBomb.comps.0.useLabel>
+
+  <TrapIED_WhitePhosphorus.label>Фосфорная мина</TrapIED_WhitePhosphorus.label>
+  <TrapIED_WhitePhosphorus.description>Взрывное устройствос белым фосфором, соединенных со спусковым крючком, который взрывается при прикосновении или ударе пули. Поскольку он скрыт в окружающей местности, его нельзя размещать рядом с другими ловушками. Животные могут чувствовать это, когда спокойны.</TrapIED_WhitePhosphorus.description>
+
+
+</LanguageData>

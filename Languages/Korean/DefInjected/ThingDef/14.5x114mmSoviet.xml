@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_145x114mm_WhitePhosphorus.label>14.5x114mm (백인)</Ammo_145x114mm_WhitePhosphorus.label>
+  <Ammo_145x114mm_WhitePhosphorus.description>원래 AT 소총용으로 설계된 구식 대전차 카트리지로 다양한 중기관총에도 사용됩니다.</Ammo_145x114mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_145x114mm_WhitePhosphorus.label>14.5x114mm 총알(WhitePhosphorus)</Bullet_145x114mm_WhitePhosphorus.label>
+
+
+  <!-- 발사체 -->
+
+</LanguageData>

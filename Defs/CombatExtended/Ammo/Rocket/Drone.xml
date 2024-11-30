@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingCategoryDef>
+		<defName>AmmoDroneHowitzerShells</defName>
+		<label>Drone Howitzer shell</label>
+		<parent>AmmoShells</parent>
+			<iconPath>UI/Icons/ThingCategories/Drone</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_DroneHowitzerShell</defName>
+		<label>Ударный дрон(HE)</label>
+		<ammoTypes>
+			<Ammo_DroneHowitzerShell_HE>Bullet_DroneHowitzerShell_HE</Ammo_DroneHowitzerShell_HE>
+			<Ammo_DroneHowitzerShell_MIN>Bullet_DroneHowitzerShell_MIN</Ammo_DroneHowitzerShell_MIN>
+			<Ammo_DroneHowitzerShell_GRAN>Bullet_DroneHowitzerShell_GRAN</Ammo_DroneHowitzerShell_GRAN>
+			<Ammo_DroneHowitzerShell_EMI>Bullet_DroneHowitzerShell_EMI</Ammo_DroneHowitzerShell_EMI>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_DroneHowitzerShell_directfire</defName>
+		<label>Ударный дрон.</label>
+		<ammoTypes>
+			<Ammo_DroneHowitzerShell_HE>Bullet_DroneHowitzerShell_HE_directfire</Ammo_DroneHowitzerShell_HE>
+		    <Ammo_DroneHowitzerShell_GRAN>Bullet_DroneHowitzerShell_GRAN_directfire</Ammo_DroneHowitzerShell_GRAN>
+			<Ammo_DroneHowitzerShell_MIN>Bullet_DroneHowitzerShell_MIN_directfire</Ammo_DroneHowitzerShell_MIN>
+			<Ammo_DroneHowitzerShell_EMI>Bullet_DroneHowitzerShell_EMI_directfire</Ammo_DroneHowitzerShell_EMI>
+			
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="DroneHowitzerShellBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<description>Ударный дрон</description>
+		<thingCategories>
+			<li>AmmoDroneHowitzerShells</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>46.7</Mass>
+			<Bulk>47.67</Bulk>
+			<Flammability>1</Flammability>
+		</statBases>
+		<cookOffFlashScale>40</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<cookOffSpeed>0.2</cookOffSpeed>
+		<cookOffTailSound>ShellCookOff_Ambient</cookOffTailSound>
+		<isMortarAmmo>true</isMortarAmmo>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="DroneHowitzerShellBase">
+		<defName>Ammo_DroneHowitzerShell_HE</defName>
+		<label>Ворона МК1(HE)</label>
+		<description>Малый ударный дрон- Ярость воронёнка.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Drone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>384.6</MarketValue>
+		</statBases>
+		<generateAllowChance>0.0</generateAllowChance>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_DroneHowitzerShell_HE</detonateProjectile>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="DroneHowitzerShellBase">
+		<defName>Ammo_DroneHowitzerShell_EMI</defName>
+		<label>Скат МК3(ЭМИ)</label>
+		<description>Малый дрон поддержки-Ионный Скат.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Drone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>584.6</MarketValue>
+		</statBases>
+		<ammoClass>FLEmi</ammoClass>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<generateAllowChance>0.0</generateAllowChance>
+		<detonateProjectile>Bullet_DroneHowitzerShell_EMI</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="DroneHowitzerShellBase">
+		<defName>Ammo_DroneHowitzerShell_MIN</defName>
+		<label>Фурия МК4(Мины)</label>
+		<description>Малый ударный дрон для постановки минных полей.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Drone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>673.94</MarketValue>
+		</statBases>
+		<ammoClass>Mine</ammoClass>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<generateAllowChance>0</generateAllowChance>
+		<detonateProjectile>Bullet_DroneHowitzerShell_MIN</detonateProjectile>
+	</ThingDef>
+
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="DroneHowitzerShellBase">
+		<defName>Ammo_DroneHowitzerShell_GRAN</defName>
+		<label>Виверна МК1(HE)</label>
+		<description>Малый ударный дрон- Ярость виверны.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Drone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>584.6</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<generateAllowChance>0</generateAllowChance>
+		<ammoClass>FLMine</ammoClass>
+		<detonateProjectile>Bullet_DroneHowitzerShell_GRAN</detonateProjectile>
+	</ThingDef>
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="BaseDroneHowitzerShell" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+		    <soundExplode>MortarBomb_Explode</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
+			<flyOverhead>true</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+			<gravityFactor>5</gravityFactor>
+			<shellingProps>
+				<tilesPerTick>0.12</tilesPerTick>
+				<range>80</range>
+			</shellingProps>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseDroneHowitzerShell">
+		<defName>Bullet_DroneHowitzerShell_HE</defName>
+		<label>Каааар! МК1</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+		    <texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>150</damageAmountBase>
+			<explosionRadius>5.5</explosionRadius>
+			<explosionChanceToStartFire>0.22</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shellingProps>
+				<damage>0.33</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>8</Fragment_Large>
+					<Fragment_Small>50</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseDroneHowitzerShell">
+		<defName>Bullet_DroneHowitzerShell_EMI</defName>
+		<label>Скат! МК3</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+		    <texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionRadius>5</explosionRadius>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shellingProps>
+				<damage>0.33</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_EMI>1</Fragment_EMI>
+					<Proj_GrenadeSmoke>4</Proj_GrenadeSmoke>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+<ThingDef ParentName="BaseDroneHowitzerShell">
+		<defName>Bullet_DroneHowitzerShell_GRAN</defName>
+		<label>Вжух! МК1</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+		    <texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionRadius>1</explosionRadius>
+			<explosionChanceToStartFire>1</explosionChanceToStartFire>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shellingProps>
+				<damage>0.33</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Proj_GrenadeFusion>10</Proj_GrenadeFusion>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+
+	<ThingDef ParentName="BaseDroneHowitzerShell">
+		<defName>Bullet_DroneHowitzerShell_MIN</defName>
+		<label>Фурия 4 (мины)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<flyOverhead>true</flyOverhead>
+			<explosionRadius>9.5</explosionRadius>
+			<shellingProps>
+				<damage>0.03</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_MinesA>12</Fragment_MinesA>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- direct fire-->
+	<ThingDef Name="BaseDroneHowitzerShellDirectfire" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>155</speed>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<flyOverhead>false</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_HE_directfire</defName>
+		<label>Дрон без управления (HE)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>150</damageAmountBase>
+			<explosionRadius>15.5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>10</Fragment_Large>
+					<Fragment_Small>60</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_EMI_directfire</defName>
+		<label>Дрон без управления (emi)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<explosionRadius>15.5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_EMI>1</Fragment_EMI>
+					<Proj_GrenadeSmoke>4</Proj_GrenadeSmoke>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_GRAN_directfire</defName>
+		<label>Виверна без управления </label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionRadius>1</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Proj_GrenadeFusion>10</Proj_GrenadeFusion>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- <ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_Incendiary_directfire</defName>
+		<label>Drone Howitzer shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/INC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.20</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>4</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
+	<ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_MIN_directfire</defName>
+		<label>Не управляемый дрон (Мины)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Dron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_MinesA>12</Fragment_MinesA>
+					<Fragment_Icon>1</Fragment_Icon>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeAmmo_DroneHowitzerShell_HE</defName>
+		<label>Сделать ударный дрон x3</label>
+		<description>Сделать раудиоуправляемый дрон из подручных материалов.</description>
+		<jobString>СОздаёт набор ударных дронов.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+		     <li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Engine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+			    <li>FSX</li>
+				<li>Chemfuel</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_DroneHowitzerShell_HE>3</Ammo_DroneHowitzerShell_HE>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeAmmo_DroneHowitzerShell_EMI</defName>
+		<label>Сделать  дрон поддержки x3</label>
+		<description>Сделать раудиоуправляемый дрон из подручных материалов.</description>
+		<jobString>СОздаёт набор ударных дронов.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+		     <li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Engine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MineralSonarModule</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+			    <li>FSX</li>
+				<li>Chemfuel</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+				<li>MineralSonarModule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_DroneHowitzerShell_EMI>3</Ammo_DroneHowitzerShell_EMI>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeAmmo_DroneHowitzerShell_GRAN</defName>
+		<label>Сделать дрон с гранатной подвеской x3</label>
+		<description>Сделать раудиоуправляемый дрон из подручных материалов.</description>
+		<jobString>СОздаёт набор ударных дронов.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+		     <li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_GrenadePlasma</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Engine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+			    <li>FSX</li>
+				<li>Chemfuel</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_DroneHowitzerShell_GRAN>3</Ammo_DroneHowitzerShell_GRAN>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeAmmo_DroneHowitzerShell_MIN</defName>
+		<label>Сделать ударный дрон Фурия</label>
+		<description>Сделать раудиоуправляемый дрон из подручных материалов.Дрон оснащён боеприпасами с анитматерией</description>
+		<jobString>СОздаёт набор ударных дронов.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+		     <li>
+				<filter>
+					<thingDefs>
+						<li>Trap2_Frag</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Engine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+			    <li>Shell_AntigrainWarhead</li>
+			    <li>FSX</li>
+				<li>Chemfuel</li>
+				<li>Powder</li>
+				<li>Engine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_DroneHowitzerShell_MIN>1</Ammo_DroneHowitzerShell_MIN>
+		</products>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+
+
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeAmmo_EngineDrone</defName>
+		<label>Сделать двигатель</label>
+		<description>Сделать Мини ДВС (ДВС – Двигатель Внутреннего Сгорания) – это небольшой двигатель внутреннего сгорания, предназначенный для применения в небольших машинах, устройствах или для специфических задач. Мини ДВС, как правило, имеет меньший рабочий объем и меньшую мощность по сравнению с ДВС, используемыми, например, в автомобилях или грузовиках.</description>
+		<jobString>Создаёт  Мини ДВС.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Engine>3</Engine>
+		</products>
+	</RecipeDef>
+</Defs>

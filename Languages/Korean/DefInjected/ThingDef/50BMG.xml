@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_50BMG_WhitePhosphorus.label>.50 BMG(백린)</Ammo_50BMG_WhitePhosphorus.label>
+  <Ammo_50BMG_WhitePhosphorus.description>많은 중기관총과 대물 소총에 사용되는 대구경 총알입니다.</Ammo_50BMG_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_50BMG_WhitePhosphorus.label>.50 BMG 총알(백인)</Bullet_50BMG_WhitePhosphorus.label>
+
+
+  <!-- 발사체 -->
+
+</LanguageData>

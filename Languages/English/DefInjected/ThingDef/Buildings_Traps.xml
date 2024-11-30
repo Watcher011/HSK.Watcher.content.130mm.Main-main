@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traps -->
+
+  <TrapIED_HighFrag.label>Anti-personnel mine</TrapIED_HighFrag.label>
+  <TrapIED_HighFrag.description>An anti-personnel mine is a type of land mine designed to counter the advance of enemy infantry forces.</TrapIED_HighFrag.description>
+
+  <MinSign.label>Sign Caution mines</MinSign.label>
+  <MinSign.description>Warning sign.</MinSign.description>
+
+
+</LanguageData>

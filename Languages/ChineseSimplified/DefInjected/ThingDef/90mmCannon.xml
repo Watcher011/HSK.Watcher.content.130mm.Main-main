@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+<Ammo_90mmCannonShell_WhitePhosphorus.label>90mm 炮弹（白磷）</Ammo_90mmCannonShell_WhitePhosphorus.label>
+<Ammo_90mmCannonShell_WhitePhosphorus.description>相对较小的炮弹。</Ammo_90mmCannonShell_WhitePhosphorus.description>
+
+<!-- 射弹 -->
+
+<Bullet_90mmCannonShell_WhitePhosphorus.label>90mm 炮弹（白磷）</Bullet_90mmCannonShell_WhitePhosphorus.label>
+</LanguageData>

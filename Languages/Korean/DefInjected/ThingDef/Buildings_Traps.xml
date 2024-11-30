@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traps -->
+
+  <TrapIED_HighFrag.label>대인 지뢰</TrapIED_HighFrag.label>
+  <TrapIED_HighFrag.description>대인 지뢰는 적 보병의 진격에 대응하기 위해 설계된 일종의 지뢰입니다.</TrapIED_HighFrag.description>
+
+  <MinSign.label>지뢰 주의 표지판</MinSign.label>
+  <MinSign.description>경고 표시.</MinSign.description>
+
+
+</LanguageData>

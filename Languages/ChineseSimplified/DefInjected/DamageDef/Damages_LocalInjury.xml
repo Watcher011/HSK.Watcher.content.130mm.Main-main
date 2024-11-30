@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<WhitePhosphorus.label>白磷</WhitePhosphorus.label>
+ <WhitePhosphorus.deathMessage>{0}已被杀死。</WhitePhosphorus.deathMessage>
+
+</LanguageData>

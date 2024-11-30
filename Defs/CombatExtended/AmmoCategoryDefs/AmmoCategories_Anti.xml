@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+ <CombatExtended.AmmoCategoryDef>
+    <defName>ANTI</defName>
+    <label>Антивещество́</label>
+    <labelShort>Anti</labelShort>
+    <description>Антивещество́ — вещество, состоящее из античастиц, стабильно не образующееся в природе.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>Mine</defName>
+    <label>Cистема Mинирования</label>
+    <labelShort>СМ</labelShort>
+    <description>Система дистанционного минирования - предназначена для оперативного создания минных полей на особо опасных направлениях.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+    <defName>FLMine</defName>
+    <label>Cистема Сброса</label>
+    <labelShort>СБ</labelShort>
+    <description>Система дистанционного сброса гранат.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+ <CombatExtended.AmmoCategoryDef>
+    <defName>FLEmi</defName>
+    <label>Система ЭМИ подавления</label>
+    <labelShort>сЭМИп</labelShort>
+    <description>Система установки эми помех.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>WPH</defName>
+    <label>Белый Фосфор (WPH)</label>
+    <labelShort>WPH</labelShort>
+    <description>Фосфорные боеприпасы.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>DD</defName>
+    <label>Пыль мертвой жизни(DeadlifeDust)</label>
+    <labelShort>DD</labelShort>
+    <description>Пыль мертвой жизни.</description>
+  </CombatExtended.AmmoCategoryDef>
+  
+   <CombatExtended.AmmoCategoryDef>
+    <defName>Bio</defName>
+    <label>Био оружие</label>
+    <labelShort>Bio</labelShort>
+    <description>Биологическое оружие – оружие массового поражения, которое путём распространения живых организмов или инфекционных микробов вызывает болезнь или смерть у людей, животных или растений.</description>
+  </CombatExtended.AmmoCategoryDef>
+</Defs>

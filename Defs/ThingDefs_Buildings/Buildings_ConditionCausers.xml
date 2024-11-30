@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ========================= BASE ========================= -->
+  <ThingDef Name="ConditionCauserBase" Abstract="True" ParentName="BuildingBase">
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>1.0</fillPercent>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+    <building>
+      <combatPower>750</combatPower>
+      <buildingTags>
+        <li>MechClusterMember</li>
+        <li>MechClusterProblemCauser</li>
+      </buildingTags>
+      <claimable>false</claimable>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_WakeUpDormant" />
+      <li Class="CompProperties_Initiatable" />
+    </comps>
+    <receivesSignals>true</receivesSignals>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <drawerType>MapMeshOnly</drawerType>
+    <castEdgeShadows>True</castEdgeShadows>
+    <repairEffect>ConstructMetal</repairEffect>
+    <forceDebugSpawnable>true</forceDebugSpawnable>
+    <isMechClusterThreat>true</isMechClusterThreat>
+    <killedLeavings>
+      <Steel>60</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Plasteel>10</Plasteel>
+      <ChunkSlagSteel>4</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+  
+  <SitePartDef Name="ConditionCauserSitePartBase" Abstract="True">
+    <workerClass>SitePartWorker_ConditionCauser</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/ConditionCauser</expandingIconTexture>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <badEvenIfNoMap>true</badEvenIfNoMap>
+    <tags>
+      <li>QuestActiveThreat</li>
+      <li>QuestConditionCauser</li>
+    </tags>
+  </SitePartDef>
+  
+  <GenStepDef Name="ConditionCauserGenStepBase" Abstract="True">
+    <order>490</order>
+    <genStep Class="GenStep_ConditionCauser">
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+
+  <RuleDef>
+    <defName>ConditionCauserRoom</defName>
+    <symbol>conditionCauserRoom</symbol>
+    <resolvers>
+      <li Class="SymbolResolver_GenericRoom">
+        <minRectSize>(9, 9)</minRectSize>
+        <interior>interior_conditionCauserRoom</interior>
+        <allowRoof>false</allowRoof>
+      </li>
+    </resolvers>
+  </RuleDef>
+  
+  <RuleDef>
+    <defName>Interior_ConditionCauserRoom</defName>
+    <symbol>interior_conditionCauserRoom</symbol>
+    <resolvers>
+      <li Class="SymbolResolver_Interior_ConditionCauser" />
+    </resolvers>
+  </RuleDef>
+
+ 
+  <!-- ========================= EMI dynamo ========================= -->
+  <ThingDef ParentName="ConditionCauserBase">
+    <defName>EMIDynamoDron</defName>
+    <label>EMI Глушилка</label>
+    <description>Небольшое устройство что в течении короткого периуда подавлет все электро приборы</description>
+    <size>(1,1)</size>
+    <graphicData>
+      <texPath>Things/Building/Emp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <drawOffset>(0,0,-0.2)</drawOffset>
+      <shadowData>
+        <volume>(1,1,1)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(1.1, 1.0, 1.1, 1.0)</rect>
+      </damageData>
+    </graphicData>
+	<tickerType>Normal</tickerType>
+    <building>
+      <soundAmbient>EMIDynamo_Ambience</soundAmbient>
+    </building>
+    <comps>
+      <li Class="CompProperties_CausesGameCondition">
+        <conditionDef>EMIFieldDron</conditionDef>
+        <worldRange>1</worldRange>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>9.9</explosiveRadius>
+        <explosiveDamageType>EMP</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
+      </li>
+	     <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,217,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>80000</lifespanTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <GameConditionDef>
+    <defName>EMIFieldDron</defName>
+    <conditionClass>GameCondition_DisableElectricity</conditionClass>
+    <label>EMI Глушилка</label>
+    <description>Устройство что излучает поле электромагнитных помех, выводя из строя электрические устройства.</description>
+    <descriptionFuture>ЭМИ подавитель</descriptionFuture>
+    <endMessage>ЭМИ подавитель отключен.</endMessage>
+    <letterText>Запущен ЭМИ подавитель.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+    <natural>false</natural>
+  </GameConditionDef>
+
+  <SitePartDef ParentName="ConditionCauserSitePartBase">
+    <defName>EMIDynamoDron</defName>
+    <label>ЭМИ подавитель</label>
+    <description>ЭМИ подавитель</description>
+    <conditionCauserDef>EMIDynamoDron</conditionCauserDef>
+    <excludesTags>
+      <li>Electrical</li>
+    </excludesTags>
+  </SitePartDef>
+
+  <GenStepDef ParentName="ConditionCauserGenStepBase">
+    <defName>EMIDynamoDron</defName>
+    <linkWithSite>EMIDynamoDron</linkWithSite>
+  </GenStepDef>
+
+</Defs>

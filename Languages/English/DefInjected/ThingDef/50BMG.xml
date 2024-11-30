@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_50BMG_WhitePhosphorus.label>.50 BMG (White Phosphorus)</Ammo_50BMG_WhitePhosphorus.label>
+  <Ammo_50BMG_WhitePhosphorus.description>Large caliber bullet used by many heavy machine guns and anti-materiel rifles.</Ammo_50BMG_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_50BMG_WhitePhosphorus.label>.50 BMG bullet (White Phosphorus)</Bullet_50BMG_WhitePhosphorus.label>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_Mortar_Drone.label>UAV catapult</Turret_Mortar_Drone.label>
+  <Turret_Mortar_Drone.description>A simple catapult that is capable of launching a UAV.</Turret_Mortar_Drone.description>
+
+  <MinifiedTurret_DronMortar.label>Undeployed Dron Mortar</MinifiedTurret_DronMortar.label>
+
+  <ArtilleryDron_Mortar.label>UAV catapult</ArtilleryDron_Mortar.label>
+  <ArtilleryDron_Mortar.description>A simple catapult that can launch a UAV</ArtilleryDron_Mortar.description>
+
+
+</LanguageData>

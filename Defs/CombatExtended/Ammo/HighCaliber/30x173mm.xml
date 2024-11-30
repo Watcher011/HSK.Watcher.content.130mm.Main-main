@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo30x173mm</defName>
+		<label>30x173mm shell</label>
+		<parent>AmmoShells</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_30x173mm</defName>
+		<label>30x173mm</label>
+		<ammoTypes>
+			<Ammo_30x173mm_FMJ>Bullet_30x173mm_FMJ</Ammo_30x173mm_FMJ>
+			<Ammo_30x173mm_HE>Bullet_30x173mm_HE</Ammo_30x173mm_HE>
+			<Ammo_30x173mm_Incendiary>Bullet_30x173mm_Incendiary</Ammo_30x173mm_Incendiary>
+			<Ammo_30x173mm_WhitePhosphorus>Bullet_30x173mm_WhitePhosphorus</Ammo_30x173mm_WhitePhosphorus>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Ammo30x173mmBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>The 30x173mm caliber is a specific size of cannon and autocannon ammunition.</description>
+		<statBases>
+			<Mass>0.837</Mass>
+			<Bulk>1.22</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo30x173mm</li>
+		</thingCategories>
+		<stackLimit>200</stackLimit>
+	</ThingDef>
+
+	
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo30x173mmBase">
+		<defName>Ammo_30x173mm_WhitePhosphorus</defName>
+		<label>30x173mm cartridge (White Phosphorus)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/WhitePhosphorus</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>9.5</MarketValue>
+		</statBases>
+		<ammoClass>WPH</ammoClass>
+		<generateAllowChance>0.15</generateAllowChance>
+		<cookOffProjectile>Bullet_30x173mm_WhitePhosphorus</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base30x173mmBullet" ParentName="SK_BaseBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/50CalRound</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>185</speed>
+			<soundExplode>35mmExplosion</soundExplode>
+			<soundImpactAnticipate>FlyingShell</soundImpactAnticipate> 
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>20</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base30x173mmBullet">
+		<defName>Bullet_30x173mm_WhitePhosphorus</defName>
+		<label>30x173mm bullet (WhitePhosphorus)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>55</damageAmountBase>
+			<armorPenetrationSharp>48</armorPenetrationSharp>
+			<armorPenetrationBlunt>1669</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Flame_Secondary</def>
+					<amount>25</amount>
+				</li>
+			</secondaryDamage>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>12</damageAmountBase>
+				<explosiveDamageType>WhitePhosphorus</explosiveDamageType>
+				<explosiveRadius>1.6</explosiveRadius>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
+		<defName>MakeAmmo_30x173mm_WhitePhosphorus</defName>
+		<label>make 30x173mm (WhitePhosphorus) cartridge x30</label>
+		<description>Craft 30 30x173mm (WhitePhosphorus) cartridges.</description>
+		<jobString>Making 30x173mm (WhitePhosphorus) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WhitePhosphorus</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>WhitePhosphorus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x173mm_WhitePhosphorus>30</Ammo_30x173mm_WhitePhosphorus>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

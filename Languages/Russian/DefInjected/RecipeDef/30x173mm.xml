@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_30x173mm_WhitePhosphorus.label>изготовить патрон 30х173мм (Белый Фосфор) х30</MakeAmmo_30x173mm_WhitePhosphorus.label>
+  <MakeAmmo_30x173mm_WhitePhosphorus.description>Изготовьте 30 патронов 30х173 мм (Белый Фосфор).</MakeAmmo_30x173mm_WhitePhosphorus.description>
+  <MakeAmmo_30x173mm_WhitePhosphorus.jobString>Изготовление патронов 30х173мм (Белый Фосфор).</MakeAmmo_30x173mm_WhitePhosphorus.jobString>
+
+
+</LanguageData>

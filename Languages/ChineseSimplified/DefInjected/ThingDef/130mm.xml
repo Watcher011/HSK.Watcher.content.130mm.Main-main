@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+ <Ammo_130mmRocketMissile.label>130毫米破片弹药（HE）</Ammo_130mmRocketMissile.label>
+ <Ammo_130mmRocketMissile.description>世界公约禁止使用的130毫米炮弹。</Ammo_130mmRocketMissile.description>
+
+ <Ammo_130mmRocketFLMissile.label>130毫米磷弹药(P)</Ammo_130mmRocketFLMissile.label>
+ <Ammo_130mmRocketFLMissile.description>130毫米填充白磷，根据Parabellum专利制造的一种在许多世界被禁止的不人道武器。</Ammo_130mmRocketFLMissile.description>
+
+ <Ammo_130mmRocketAntiMissile.label>130mm反物质弹药（反）</Ammo_130mmRocketAntiMissile.label>
+ <Ammo_130mmRocketAntiMissile.description>130毫米内装反物质，一个反物质舱可以为一座大都市提供一年的电力，我们用它来攻击袭击者。</Ammo_130mmRocketAntiMissile.description>
+
+ <Ammo_130mmRocketEMIMissile.label>130mm电磁脉冲弹药(EMI)</Ammo_130mmRocketEMIMissile.label>
+ <Ammo_130mmRocketEMIMissile.description>130毫米的EMI填充可立即关闭护盾、炮塔、迫击炮并禁用机械装置25秒。</Ammo_130mmRocketEMIMissile.description>
+
+ <Ammo_130mmRocketDeadlifeDustMissile.label>130mm Deadlife Dust弹药</Ammo_130mmRocketDeadlifeDustMissile.label>
+ <Ammo_130mmRocketDeadlifeDustMissile.description>130毫米内填充“死亡生命之尘”，后果未知。</Ammo_130mmRocketDeadlifeDustMissile.description>
+
+
+ <!-- 投射物 -->
+
+ <Bullet_130mmRocketMissile.label>130毫米破片弹药（HE）</Bullet_130mmRocketMissile.label>
+ <Bullet_130mmRocketFLMissile.label>130毫米磷弹药（P）</Bullet_130mmRocketFLMissile.label>
+ <Bullet_130mmRocketAntiMissile.label>130毫米集束反物质火箭（Anti）</Bullet_130mmRocketAntiMissile.label>
+ <Bullet_130mmRocketEMIMissile.label>130毫米电磁干扰弹药（EMI）</Bullet_130mmRocketEMIMissile.label>
+ <Bullet_130mmRocketDeadlifeDustMissile.label>130毫米Deadlife Dust弹药</Bullet_130mmRocketDeadlifeDustMissile.label>
+
+
+ <!-- 直接射击 -->
+
+ <Bullet_130mmRocketMissile_directfire.label>130毫米破片弹药（HE）</Bullet_130mmRocketMissile_directfire.label>
+ <Bullet_130mmRocketFLMissile_directfire.label>130毫米磷弹药(P)</Bullet_130mmRocketFLMissile_directfire.label>
+ <Bullet_130mmRocketAntiMissile_directfire.label>130毫米反物质集束弹（反）</Bullet_130mmRocketAntiMissile_directfire.label>
+ <Bullet_130mmRocketEMIMissile_directfire.label>130毫米EMI弹药</Bullet_130mmRocketEMIMissile_directfire.label>
+ <Bullet_130mmRocketDeadlifeDustMissile_directfire.label>130毫米DeadlifeDust弹药</Bullet_130mmRocketDeadlifeDustMissile_directfire.label>
+
+
+</LanguageData>

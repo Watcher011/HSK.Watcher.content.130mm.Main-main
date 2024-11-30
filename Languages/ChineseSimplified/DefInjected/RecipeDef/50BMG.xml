@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_50BMG_WhitePhosphorus.label>制作 0.50 BMG（白磷）弹药筒 x30</MakeAmmo_50BMG_WhitePhosphorus.label>
+ <MakeAmmo_50BMG_WhitePhosphorus.description>制作 200 .50 BMG（白磷）弹药筒。</MakeAmmo_50BMG_WhitePhosphorus.description>
+ <MakeAmmo_50BMG_WhitePhosphorus.jobString>制作 0.50 BMG（白磷）弹药筒。</MakeAmmo_50BMG_WhitePhosphorus.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traps -->
+<TrapIED_HighFrag.label>杀伤人员地雷</TrapIED_HighFrag.label>
+ <TrapIED_HighFrag.description>杀伤人员地雷是一种地雷，旨在对抗敌方步兵部队的前进。</TrapIED_HighFrag.description>
+
+ <MinSign.label>我的小心标志</MinSign.label>
+ <MinSign.description>警告标志。</MinSign.description>
+
+</LanguageData>

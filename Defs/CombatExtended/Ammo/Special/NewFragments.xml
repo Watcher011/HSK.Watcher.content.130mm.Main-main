@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFragment">
+		<defName>Fragment_Icon</defName>
+		<label>Ограждение</label>
+		<graphicData>
+			<texPath>Things/Building/MineAten</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Blunt</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<speed>24</speed>
+			<armorPenetrationSharp>1</armorPenetrationSharp>
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			<applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>MinSign</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFragment">
+		<defName>Fragment_MinesA</defName>
+		<label>Мины</label>
+		<graphicData>
+			<texPath>Things/Building/Emp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Blunt</damageDef>
+			<damageAmountBase>28</damageAmountBase>
+			<speed>24</speed>
+			<armorPenetrationSharp>2</armorPenetrationSharp>
+			<armorPenetrationBlunt>38</armorPenetrationBlunt>
+			<gravityFactor>14</gravityFactor>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>TrapIED_HighFrag</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+	
+	
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFragment">
+		<defName>Fragment_EMI</defName>
+		<label>Эми излучатель</label>
+		<graphicData>
+			<texPath>Things/Building/Emp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		<damageDef>Blunt</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<speed>10</speed>
+			<armorPenetrationSharp>1</armorPenetrationSharp>
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			<applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>EMIDynamoDron</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+</Defs>

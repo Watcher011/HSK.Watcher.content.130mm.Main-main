@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.label>120mm WhitePhosphorus 대포 탄환 2개 만들기</MakeAmmo_120mmCannonShell_WhitePhosphorus.label>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.description>120mm WhitePhosphorus 대포탄 2개를 제작하세요.</MakeAmmo_120mmCannonShell_WhitePhosphorus.description>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>120mm WhitePhosphorus 대포탄 만들기</MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>
+
+
+</LanguageData>

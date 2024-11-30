@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EMI dynamo -->
+
+  <EMIFieldDron.label>EMI Jammer</EMIFieldDron.label>
+  <EMIFieldDron.description>A device that emits a field of electromagnetic interference, damaging electrical devices.</EMIFieldDron.description>
+  <EMIFieldDron.endMessage>The EMI suppressor is disabled.</EMIFieldDron.endMessage>
+  <EMIFieldDron.letterText>EMP suppressor activated.</EMIFieldDron.letterText>
+
+
+</LanguageData>

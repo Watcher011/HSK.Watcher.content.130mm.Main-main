@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+<Ammo_145x114mm_WhitePhosphorus.label>14.5x114mm（WhitePhosphorus）</Ammo_145x114mm_WhitePhosphorus.label>
+<Ammo_145x114mm_WhitePhosphorus.description>老式反坦克弹药筒，最初设计用于 AT 步枪，也被许多重机枪使用。</Ammo_145x114mm_WhitePhosphorus.description>
+
+<!-- 射弹 -->
+
+<Bullet_145x114mm_WhitePhosphorus.label>14.5x114mm 子弹（WhitePhosphorus）</Bullet_145x114mm_WhitePhosphorus.label>
+</LanguageData>

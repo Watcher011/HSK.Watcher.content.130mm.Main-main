@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<Turret_Mortar_Drone.label>无人机弹射器</Turret_Mortar_Drone.label>
+ <Turret_Mortar_Drone.description>一个可以发射无人机的简单弹射器。</Turret_Mortar_Drone.description>
+
+ <MinifiedTurret_DronMortar.label>未部署的德隆迫击炮</MinifiedTurret_DronMortar.label>
+
+ <ArtilleryDron_Mortar.label>无人机弹射器</ArtilleryDron_Mortar.label>
+ <ArtilleryDron_Mortar.description>一个可以发射无人机的简单弹射器</ArtilleryDron_Mortar.description>
+
+</LanguageData>

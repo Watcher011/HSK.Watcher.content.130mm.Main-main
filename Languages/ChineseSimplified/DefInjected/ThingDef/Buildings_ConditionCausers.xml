@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EMI dynamo -->
+<EMIDynamoDron.label>EMI 干扰器</EMIDynamoDron.label>
+ <EMIDynamoDron.description>一种小型设备，可在短时间内抑制所有电气设备</EMIDynamoDron.description>
+
+</LanguageData>

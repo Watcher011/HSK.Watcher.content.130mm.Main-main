@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_50BMG_WhitePhosphorus.label>изготовить патрон .50 BMG (Белый Фосфор) x20</MakeAmmo_50BMG_WhitePhosphorus.label>
+  <MakeAmmo_50BMG_WhitePhosphorus.description>Изготовить 200 патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.description>
+  <MakeAmmo_50BMG_WhitePhosphorus.jobString>Изготовление патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_130mmRocketMissile.label>Сделать 130mm осколочные  ракеты x1</MakeAmmo_130mmRocketMissile.label>
+  <MakeAmmo_130mmRocketMissile.description>Создать  130mm  осколочные  ракеты.</MakeAmmo_130mmRocketMissile.description>
+  <MakeAmmo_130mmRocketMissile.jobString>Создаёт  130mm  осколочные  ракеты.</MakeAmmo_130mmRocketMissile.jobString>
+
+  <MakeAmmo_130mmRocketFLMissile.label>Сделать 130mm фосфоорные ракеты x1</MakeAmmo_130mmRocketFLMissile.label>
+  <MakeAmmo_130mmRocketFLMissile.description>Создать  130mm  фосфорные ракеты.</MakeAmmo_130mmRocketFLMissile.description>
+  <MakeAmmo_130mmRocketFLMissile.jobString>Создаёт 130mm фосфорные ракеты.</MakeAmmo_130mmRocketFLMissile.jobString>
+
+  <MakeAmmo_130mmRocketAntiMissile.label>Создать 130mm антиматериальную ракету x1</MakeAmmo_130mmRocketAntiMissile.label>
+  <MakeAmmo_130mmRocketAntiMissile.description>Создание 130mm антиматериальную ракету.</MakeAmmo_130mmRocketAntiMissile.description>
+  <MakeAmmo_130mmRocketAntiMissile.jobString>Создаёт 130mm антиматериальную ракету.</MakeAmmo_130mmRocketAntiMissile.jobString>
+
+  <MakeAmmo_130mmRocketEMIMissile.label>Сделать 130mm EMI ракеты x1</MakeAmmo_130mmRocketEMIMissile.label>
+  <MakeAmmo_130mmRocketEMIMissile.description>Создать  130mm  EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.description>
+  <MakeAmmo_130mmRocketEMIMissile.jobString>Создаёт 130mm EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.jobString>
+
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.label>Сделать 130mm зомби ракеты x1</MakeAmmo_130mmRocketDeadlifeDustMissile.label>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Создать  130mm  зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
+  <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Создаёт 130mm зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
+
+  <MakeAmmo_130mmRocketBio.label>Сделать 130mm  ракету c модифицированным штамом чумы x1</MakeAmmo_130mmRocketBio.label>
+  <MakeAmmo_130mmRocketBio.description>Создать  130mm  био ракеты.</MakeAmmo_130mmRocketBio.description>
+  <MakeAmmo_130mmRocketBio.jobString>Создаёт 130mm био ракеты.</MakeAmmo_130mmRocketBio.jobString>
+
+
+</LanguageData>

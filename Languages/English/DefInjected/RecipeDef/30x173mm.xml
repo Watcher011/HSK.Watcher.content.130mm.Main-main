@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_30x173mm_WhitePhosphorus.label>make 30x173mm (WhitePhosphorus) cartridge x30</MakeAmmo_30x173mm_WhitePhosphorus.label>
+  <MakeAmmo_30x173mm_WhitePhosphorus.description>Craft 30 30x173mm (WhitePhosphorus) cartridges.</MakeAmmo_30x173mm_WhitePhosphorus.description>
+  <MakeAmmo_30x173mm_WhitePhosphorus.jobString>Making 30x173mm (WhitePhosphorus) cartridges.</MakeAmmo_30x173mm_WhitePhosphorus.jobString>
+
+
+</LanguageData>

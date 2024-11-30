@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+ 
+ <MakeAmmo_145x114mm_WhitePhosphorus.label>制作14.5x114mm（白磷）弹药筒x30</MakeAmmo_145x114mm_WhitePhosphorus.label>
+ <MakeAmmo_145x114mm_WhitePhosphorus.description>制作 30 个 14.5x114mm（白磷）弹药筒。</MakeAmmo_145x114mm_WhitePhosphorus.description>
+ <MakeAmmo_145x114mm_WhitePhosphorus.jobString>制作 14.5x114mm（白磷）弹药筒。</MakeAmmo_145x114mm_WhitePhosphorus.jobString>
+</LanguageData>

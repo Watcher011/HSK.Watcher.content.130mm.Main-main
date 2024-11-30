@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>Изготовить 155-мм снаряд для гаубицы «Белый фосфор»</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>Изготовить снаряд для 155-мм гаубицы с белым фосфором.</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>
+  <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>Изготовление снаряда 155-мм гаубицы с белым фосфором.</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>
+
+
+</LanguageData>

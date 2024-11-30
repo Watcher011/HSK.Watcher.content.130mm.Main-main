@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+<Ammo_155mmHowitzerShell_WhitePhosphorus.label>155mm 榴弹炮炮弹（白磷）</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
+<Ammo_155mmHowitzerShell_WhitePhosphorus.description>榴弹炮使用的大型炮弹。</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
+
+<!-- 射弹 -->
+
+<Bullet_155mmHowitzerShell_WhitePhosphorus.label>155mm 榴弹炮炮弹（白磷）</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
+
+<!-- 直接射击 -->
+
+<Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>155mm 榴弹炮炮弹（白磷）磷）</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
+</LanguageData>

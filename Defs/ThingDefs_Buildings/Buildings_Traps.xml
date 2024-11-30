@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==================== Traps ======================== -->
+
+<ThingDef ParentName="SK_TrapIEDBase">
+		<defName>TrapIED_HighFrag</defName>
+		<label>Противопехотная мина</label>
+		<graphicData>
+			<texPath>Things/Building/Mines/MinesF</texPath>
+			<drawSize>(0.3)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Mines/MinesF</uiIconPath>
+		<description>Противопехотная мина — разновидность наземных мин, нацеленная на противодействие продвижению пехотных войск противника.</description>
+		<size>(1,1)</size>
+		<statBases>
+		   <MaxHitPoints>40</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Trap2_Frag>1</Trap2_Frag>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+				<wickTicks>
+					<min>15</min>
+					<max>30</max>
+				</wickTicks>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+				 <Fragment_Small>20</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+			<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+
+<ThingDef ParentName="TrapMechanicBase">
+	<defName>MinSign</defName>
+		<label>Табличка Осторожно мины</label>
+		<description>Предупреждающая табличка.</description>
+		<graphicData>
+			<texPath>Things/Building/MineAten</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shadowData>
+				<volume>(0.76,0.3,0.15)</volume>
+				<offset>(0,0,-0.39)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<fillPercent>0.25</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>100</pathCost>
+		<blockWind>true</blockWind>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<costList>
+			<Plasteel>12</Plasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(71,128,70,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>PsychicBurden</hediff>
+				<radius>15</radius>
+				<severityToAdd>0.35</severityToAdd>
+			</li>
+		</comps>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+	</ThingDef>
+
+</Defs>

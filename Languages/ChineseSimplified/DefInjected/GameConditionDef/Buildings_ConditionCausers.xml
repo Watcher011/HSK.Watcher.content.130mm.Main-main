@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EMI dynamo -->
+
+<EMIFieldDron.label>EMI 干扰器</EMIFieldDron.label>
+ <EMIFieldDron.description>发射电磁干扰场、禁用电气设备的设备。</EMIFieldDron.description>
+ <EMIFieldDron.endMessage>EMF 抑制器已禁用。</EMIFieldDron.endMessage>
+ <EMIFieldDron.letterText>EMF 抑制器已启动。</EMIFieldDron.letterText>
+</LanguageData>

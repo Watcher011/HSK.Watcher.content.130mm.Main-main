@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_30x173mm_WhitePhosphorus.label>30x173mm(백인) 카트리지 30개 만들기</MakeAmmo_30x173mm_WhitePhosphorus.label>
+  <MakeAmmo_30x173mm_WhitePhosphorus.description>30x173mm(백인) 카트리지 30개를 제작하세요.</MakeAmmo_30x173mm_WhitePhosphorus.description>
+  <MakeAmmo_30x173mm_WhitePhosphorus.jobString>30x173mm(백인) 카트리지 제작.</MakeAmmo_30x173mm_WhitePhosphorus.jobString>
+
+
+</LanguageData>

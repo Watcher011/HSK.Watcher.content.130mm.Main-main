@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="BaseGun_Turret">
+		<defName>Artillery_Dronissile</defName>
+		<label>Пусковая установка</label>
+		<graphicData>
+			<texPath>Things/Building/Security/DronLauncher_TopFull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>Пусковая установка дронов.</description>
+		<soundInteract>InteractPTUR</soundInteract>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<SightsEfficiency>2.5</SightsEfficiency>
+			<ShotSpread>0</ShotSpread>
+			<SwayFactor>0</SwayFactor>
+			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Artillery</li>
+		</weaponTags>
+		<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DroneHowitzerShell_HE</defaultProjectile>
+				<!--<forcedMissRadius>5</forcedMissRadius>-->
+				<circularError>1.5</circularError>
+				<minRange>32</minRange>
+				<range>320</range>
+				<warmupTime>2.40</warmupTime>
+				<soundCast>155mm</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>21</muzzleFlashScale>
+				<indirectFirePenalty>0.8</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>8.8</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_DroneHowitzerShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes" />
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

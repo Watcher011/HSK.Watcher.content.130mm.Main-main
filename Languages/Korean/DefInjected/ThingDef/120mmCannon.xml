@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_120mmCannonShell_WhitePhosphorus.label>120mm 대포 포탄(WhitePhosphorus)</Ammo_120mmCannonShell_WhitePhosphorus.label>
+  <Ammo_120mmCannonShell_WhitePhosphorus.description>대형 대포탄으로 일반적으로 120mm 활강전차포에 사용됩니다.</Ammo_120mmCannonShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_120mmCannonShell_WhitePhosphorus.label>120mm 대포 포탄(WhitePhosphorus)</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+
+  <!-- 발사체 -->
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_50BMG_WhitePhosphorus.label>.50 БМГ (белый фосфор)</Ammo_50BMG_WhitePhosphorus.label>
+  <Ammo_50BMG_WhitePhosphorus.description>Пуля большого калибра, используемая во многих крупнокалиберных пулеметах и ​​противотанковых винтовках.</Ammo_50BMG_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_50BMG_WhitePhosphorus.label>.Пуля 50 БМГ (Белый Фосфор)</Bullet_50BMG_WhitePhosphorus.label>
+
+
+</LanguageData>

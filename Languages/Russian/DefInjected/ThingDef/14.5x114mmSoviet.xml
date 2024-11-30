@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_145x114mm_WhitePhosphorus.label>14,5x114 мм (белый фосфор)</Ammo_145x114mm_WhitePhosphorus.label>
+  <Ammo_145x114mm_WhitePhosphorus.description>Противотанковый патрон старой школы, изначально разработанный для противотанковых винтовок, он также используется в ряде крупнокалиберных пулеметов.</Ammo_145x114mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_145x114mm_WhitePhosphorus.label>Пуля 14,5х114мм (Белый Фосфор)</Bullet_145x114mm_WhitePhosphorus.label>
+
+
+</LanguageData>

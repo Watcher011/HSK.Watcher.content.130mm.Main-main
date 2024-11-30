@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractPhosphorus.label>Получение белого фосфора</ExtractPhosphorus.label>
+  <ExtractPhosphorus.description>Получение белого фосфора</ExtractPhosphorus.description>
+  <ExtractPhosphorus.jobString>Получает белый фосфор.</ExtractPhosphorus.jobString>
+
+  <ExtractBioVirus.label>Получение модифицированного штамма чумы х2</ExtractBioVirus.label>
+  <ExtractBioVirus.description>Культивация опасного штамма чумы</ExtractBioVirus.description>
+  <ExtractBioVirus.jobString>Культивирует вирус.</ExtractBioVirus.jobString>
+
+
+  <!--<Make_Phosphorus_Body.label>Извлечь фосфор</Make_Phosphorus_Body.label>-->
+  <!--<Make_Phosphorus_Body.description>Извлечение фосфора , может занять до 10 дней</Make_Phosphorus_Body.description>-->
+
+</LanguageData>

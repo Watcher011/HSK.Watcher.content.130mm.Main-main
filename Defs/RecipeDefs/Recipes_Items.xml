@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeTrapFrag</defName>
+		<label>Создание коробки Противопехотные мины  6 мин</label>
+		<description>Создание коробки с Противопехотными  6 минами.</description>
+		<jobString>Создаёт набор мин.</jobString>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>Wire</li>
+				<li>Mechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Trap2_Frag>6</Trap2_Frag>    
+		</products>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+	</RecipeDef>
+	
+	
+</Defs>

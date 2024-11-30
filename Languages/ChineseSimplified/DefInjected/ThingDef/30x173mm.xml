@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+<Ammo_30x173mm_WhitePhosphorus.label>30x173mm 弹药筒（白磷）</Ammo_30x173mm_WhitePhosphorus.label>
+<Ammo_30x173mm_WhitePhosphorus.description>30x173mm 口径是加农炮和自动加农炮弹药的特定尺寸。</Ammo_30x173mm_WhitePhosphorus.description>
+
+<!-- 射弹 -->
+
+<Bullet_30x173mm_WhitePhosphorus.label>30x173mm 子弹（白磷）</Bullet_30x173mm_WhitePhosphorus.label>
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Traps -->
+
+  <TrapIED_HighFrag.label>Противопехотная мина</TrapIED_HighFrag.label>
+  <TrapIED_HighFrag.description>Противопехотная мина — разновидность наземных мин, нацеленная на противодействие продвижению пехотных войск противника.</TrapIED_HighFrag.description>
+
+  <MinSign.label>Табличка Осторожно мины</MinSign.label>
+  <MinSign.description>Предупреждающая табличка.</MinSign.description>
+
+
+</LanguageData>

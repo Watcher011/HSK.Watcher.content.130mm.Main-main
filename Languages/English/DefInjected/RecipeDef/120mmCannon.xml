@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.label>make 120mm WhitePhosphorus cannon shells x2</MakeAmmo_120mmCannonShell_WhitePhosphorus.label>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.description>Craft 2 120mm WhitePhosphorus cannon shells.</MakeAmmo_120mmCannonShell_WhitePhosphorus.description>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>Making 120mm WhitePhosphorus cannon shells.</MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>
+
+
+</LanguageData>

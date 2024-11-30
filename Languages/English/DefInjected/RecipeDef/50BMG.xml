@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_50BMG_WhitePhosphorus.label>make .50 BMG (WhitePhosphorus) cartridge x200</MakeAmmo_50BMG_WhitePhosphorus.label>
+  <MakeAmmo_50BMG_WhitePhosphorus.description>Craft 200 .50 BMG (WhitePhosphorus) cartridges.</MakeAmmo_50BMG_WhitePhosphorus.description>
+  <MakeAmmo_50BMG_WhitePhosphorus.jobString>Making .50 BMG (WhitePhosphorus) cartridges.</MakeAmmo_50BMG_WhitePhosphorus.jobString>
+
+
+</LanguageData>

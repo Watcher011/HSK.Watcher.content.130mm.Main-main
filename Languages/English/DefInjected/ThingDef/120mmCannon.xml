@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_120mmCannonShell_WhitePhosphorus.label>120mm cannon shell (White Phosphorus)</Ammo_120mmCannonShell_WhitePhosphorus.label>
+  <Ammo_120mmCannonShell_WhitePhosphorus.description>Large cannon shells, typically used by 120mm smoothbore tank guns.</Ammo_120mmCannonShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_120mmCannonShell_WhitePhosphorus.label>120mm cannon shell (White Phosphorus)</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+
+</LanguageData>

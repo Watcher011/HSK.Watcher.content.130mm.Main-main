@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.label>155mm 곡사포 포탄(WhitePhosphorus)</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.description>곡사포가 사용하는 대형 대포탄.</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus.label>155mm 곡사포 포탄(WhitePhosphorus)</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
+
+
+  <!-- direct fire -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>155mm 곡사포 포탄(WhitePhosphorus)</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
+
+
+  <!-- 발사체 -->
+  <!-- 직접 사격 -->
+
+</LanguageData>

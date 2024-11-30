@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_30x173mm_WhitePhosphorus.label>Патрон 30х173мм (Белый Фосфор)</Ammo_30x173mm_WhitePhosphorus.label>
+  <Ammo_30x173mm_WhitePhosphorus.description>Калибр 30х173 мм представляет собой специфический размер боеприпасов для пушек и автопушек.</Ammo_30x173mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_30x173mm_WhitePhosphorus.label>Пуля 30х173мм (Белый Фосфор)</Bullet_30x173mm_WhitePhosphorus.label>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MakeTrapFrag.label>制作盒子杀伤人员地雷 6 分钟</MakeTrapFrag.label>
+ <MakeTrapFrag.description>创建一个装有 6 个杀伤人员地雷的盒子。</MakeTrapFrag.description>
+ <MakeTrapFrag.jobString>创建一组分钟。</MakeTrapFrag.jobString>
+
+</LanguageData>

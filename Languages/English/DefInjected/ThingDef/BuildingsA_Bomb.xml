@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WhitePhosphorusBomb.label>Phosphorus bomb</WhitePhosphorusBomb.label>
+  <WhitePhosphorusBomb.description>Phosphorus bomb</WhitePhosphorusBomb.description>
+  <WhitePhosphorusBomb.comps.0.useLabel>Ignite</WhitePhosphorusBomb.comps.0.useLabel>
+
+  <TrapIED_WhitePhosphorus.label>Phosphorus mine</TrapIED_WhitePhosphorus.label>
+  <TrapIED_WhitePhosphorus.description>An explosive device containing white phosphorus, connected to a trigger, which explodes when touched or struck by a bullet. Since it is hidden in the surrounding area, it cannot be placed near other traps. Animals can sense this when they are calm.</TrapIED_WhitePhosphorus.description>
+
+
+</LanguageData>

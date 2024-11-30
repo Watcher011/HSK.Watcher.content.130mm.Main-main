@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EMI dynamo -->
+
+  <EMIFieldDron.label>EMI Глушилка</EMIFieldDron.label>
+  <EMIFieldDron.description>Устройство что излучает поле электромагнитных помех, выводя из строя электрические устройства.</EMIFieldDron.description>
+  <EMIFieldDron.endMessage>ЭМИ подавитель отключен.</EMIFieldDron.endMessage>
+  <EMIFieldDron.letterText>Запущен ЭМИ подавитель.</EMIFieldDron.letterText>
+
+
+</LanguageData>

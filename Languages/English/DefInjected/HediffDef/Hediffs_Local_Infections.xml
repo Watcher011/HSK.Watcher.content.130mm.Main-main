@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WhitePhosphorusInhalation.label>White phosphorus</WhitePhosphorusInhalation.label>
+  <WhitePhosphorusInhalation.description>White phosphorus vapor</WhitePhosphorusInhalation.description>
+  <WhitePhosphorusInhalation.stages.0.label>minor</WhitePhosphorusInhalation.stages.0.label>
+  <WhitePhosphorusInhalation.stages.1.label>moderate</WhitePhosphorusInhalation.stages.1.label>
+  <WhitePhosphorusInhalation.stages.2.label>severe</WhitePhosphorusInhalation.stages.2.label>
+  <WhitePhosphorusInhalation.stages.3.label>extreme</WhitePhosphorusInhalation.stages.3.label>
+  <WhitePhosphorusInhalation.labelNoun>suffered eye burns from white phosphorus</WhitePhosphorusInhalation.labelNoun>
+<PlagueMod.label>Bio Plague</PlagueMod.label>
+<PlagueMod.description>A stronger version of the Plague.</PlagueMod.description>
+<PlagueMod.stages.0.label>☣</PlagueMod.stages.0.label>
+
+</LanguageData>

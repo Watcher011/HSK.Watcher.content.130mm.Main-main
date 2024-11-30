@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+<Ammo_120mmCannonShell_WhitePhosphorus.label>120mm 炮弹（白磷）</Ammo_120mmCannonShell_WhitePhosphorus.label>
+<Ammo_120mmCannonShell_WhitePhosphorus.description>大型炮弹，通常由 120mm 滑膛坦克炮使用。</Ammo_120mmCannonShell_WhitePhosphorus.description>
+
+<!-- 射弹 -->
+
+<Bullet_120mmCannonShell_WhitePhosphorus.label>120mm 炮弹（白磷）</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+
+</LanguageData>

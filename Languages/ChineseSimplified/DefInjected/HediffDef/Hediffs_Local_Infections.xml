@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <WhitePhosphorusInhalation.label>白磷</WhitePhosphorusInhalation.label>
+ <WhitePhosphorusInhalation.description>白磷蒸气</WhitePhosphorusInhalation.description>
+ <WhitePhosphorusInhalation.stages.0.label>轻微</WhitePhosphorusInhalation.stages.0.label>
+ <WhitePhosphorusInhalation.stages.1.label>中等</WhitePhosphorusInhalation.stages.1.label>
+ <WhitePhosphorusInhalation.stages.2.label>严重</WhitePhosphorusInhalation.stages.2.label>
+ <WhitePhosphorusInhalation.stages.3.label>极端</WhitePhosphorusInhalation.stages.3.label>
+ <WhitePhosphorusInhalation.labelNoun>眼睛被白磷灼伤</WhitePhosphorusInhalation.labelNoun>
+
+</LanguageData>

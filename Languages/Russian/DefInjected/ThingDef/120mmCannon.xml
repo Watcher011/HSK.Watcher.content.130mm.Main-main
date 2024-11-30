@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_120mmCannonShell_WhitePhosphorus.label>Снаряд 120-мм пушки (Белый Фосфор)</Ammo_120mmCannonShell_WhitePhosphorus.label>
+  <Ammo_120mmCannonShell_WhitePhosphorus.description>Крупнокалиберные артиллерийские снаряды, обычно используемые 120-мм гладкоствольными танковыми орудиями.</Ammo_120mmCannonShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_120mmCannonShell_WhitePhosphorus.label>Снаряд 120-мм пушки (Белый Фосфор)</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+
+</LanguageData>

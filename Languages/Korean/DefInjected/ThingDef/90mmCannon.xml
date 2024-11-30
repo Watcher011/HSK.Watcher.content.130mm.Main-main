@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_90mmCannonShell_WhitePhosphorus.label>90mm 대포 포탄(WhitePhosphorus)</Ammo_90mmCannonShell_WhitePhosphorus.label>
+  <Ammo_90mmCannonShell_WhitePhosphorus.description>비교적 작은 대포 껍질.</Ammo_90mmCannonShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_90mmCannonShell_WhitePhosphorus.label>90mm 대포 껍질(WhitePhosphorus)</Bullet_90mmCannonShell_WhitePhosphorus.label>
+
+
+  <!-- 발사체 -->
+
+</LanguageData>

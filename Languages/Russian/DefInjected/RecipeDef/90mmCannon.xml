@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.label>Изготовить 5 снарядов для 90-мм пушки «Белый фосфор»</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.description>Изготовьте 5 90-мм снарядов для пушки «Белый фосфор».</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>Изготовление снарядов для 90-мм пушек «Белый фосфор».</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>
+
+
+</LanguageData>

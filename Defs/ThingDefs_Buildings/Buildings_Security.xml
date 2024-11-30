@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<ThingDef Name="MortarDroneBase" ParentName="SK_BuildingBase" Abstract="True">
+		<label>Катапульта БПЛА</label>
+		<description>Простая катапульта что способна запускать БПЛА.</description>
+		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Security/TOWLauncherBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.38,0.2,0.56375,0.8)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+			</damageData>
+			<shadowData>
+				<offset>(-0.13,-0.87,-0.1)</offset>
+				<volume>(0.5,0.4,1.05)</volume>
+			</shadowData>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<castEdgeShadows>false</castEdgeShadows>
+		<!--<stealable>false</stealable>-->
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<uiIconPath>Things/Building/Security/Dron_imo</uiIconPath>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1700</WorkToBuild>
+			<Beauty>-60</Beauty>
+			<Mass>41</Mass>
+			<Bulk>80</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<costList>
+			<Mortar_Crate>1</Mortar_Crate>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<building>
+			<turretGunDef>ArtilleryDron_Mortar</turretGunDef>
+			<buildingTags>
+				<li>Artillery</li>
+			</buildingTags>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<uninstallWork>150</uninstallWork>
+			<spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
+		</building>
+		<minifiedDef>MinifiedTurret_DronMortar</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="MortarDroneBase">
+		<defName>Turret_Mortar_Drone</defName>
+		<building>
+			<turretGunDef>ArtilleryDron_Mortar</turretGunDef>
+			<turretTopDrawSize>2</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery_MannedMortar</li>
+			</buildingTags>
+		</building>
+		<designationHotKey>Misc3</designationHotKey>
+		<designationCategory>Security</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedTurret_DronMortar</defName>
+		<label>Undeployed Dron Mortar</label>
+		<statBases>
+			<Mass>41</Mass>
+			<Bulk>38</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun_Turret">
+		<defName>ArtilleryDron_Mortar</defName>
+		<label>Катапульта БПЛА</label>
+		<description>Простая катапульта что способна запускать БПЛА</description>
+		<graphicData>
+			<texPath>Things/Building/Security/DronLauncher_TopFull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0</ShotSpread>
+			<SwayFactor>0</SwayFactor>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>TurretGun</li>
+		</weaponTags>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>7.2</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_DroneHowitzerShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<!--<forcedMissRadius>6</forcedMissRadius>-->
+				<circularError>0</circularError>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DroneHowitzerShell_HE</defaultProjectile>
+				<warmupTime>3.00</warmupTime>
+				<minRange>12</minRange>
+				<range>380</range>
+				<!--<requireLineOfSight>false</requireLineOfSight>-->
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<indirectFirePenalty>0</indirectFirePenalty>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+
+</Defs>

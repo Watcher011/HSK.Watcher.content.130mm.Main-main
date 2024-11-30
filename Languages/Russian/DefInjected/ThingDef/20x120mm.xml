@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_20x102mm_WhitePhosphorus.label>Патрон 20х102мм (Белый Фосфор)</Ammo_20x102mm_WhitePhosphorus.label>
+  <Ammo_20x102mm_WhitePhosphorus.description>Калибр 20 мм — это специфический размер боеприпасов для пушек и автопушек.</Ammo_20x102mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_20x102mm_WhitePhosphorus.label>Пуля 20х102мм (Белый Фосфор)</Bullet_20x102mm_WhitePhosphorus.label>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+<MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>制作155毫米白磷榴弹炮弹x1</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.label>
+ <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>制作155毫米白磷榴弹炮炮弹。</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.description>
+ <MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>制作155毫米白磷榴弹炮炮弹。</MakeAmmo_155mmHowitzerShell_WhitePhosphorus.jobString>
+</LanguageData>

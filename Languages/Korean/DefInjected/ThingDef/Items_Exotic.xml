@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Trap2_Frag.label>대인지뢰가 있는 상자</Trap2_Frag.label>
+  <Trap2_Frag.description>박스 최소</Trap2_Frag.description>
+
+ <bio_container.label>역병 병원균이 담긴 상자</bio_container.label>
+ <bio_container.description>전염병 병원체, 매우 위험함(냉장 보관)</bio_container.description>
+
+
+</LanguageData>

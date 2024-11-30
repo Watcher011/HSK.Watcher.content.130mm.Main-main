@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_Incendiary_directfire</defName>
+		<label>Drone Howitzer shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/INC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.20</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>4</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
+<MakeAmmo_DroneHowitzerShell_HE.label>制作攻击无人机 x3</MakeAmmo_DroneHowitzerShell_HE.label>
+ <MakeAmmo_DroneHowitzerShell_HE.description>用废料制作无线电遥控无人机。</MakeAmmo_DroneHowitzerShell_HE.description>
+ <MakeAmmo_DroneHowitzerShell_HE.jobString>创建一组攻击无人机。</MakeAmmo_DroneHowitzerShell_HE.jobString>
+
+ <MakeAmmo_DroneHowitzerShell_EMI.label>制作 x3 支持无人机</MakeAmmo_DroneHowitzerShell_EMI.label>
+ <MakeAmmo_DroneHowitzerShell_EMI.description>用废料制作无线电遥控无人机。</MakeAmmo_DroneHowitzerShell_EMI.description>
+ <MakeAmmo_DroneHowitzerShell_EMI.jobString>创建一组攻击无人机。</MakeAmmo_DroneHowitzerShell_EMI.jobString>
+
+ <MakeAmmo_DroneHowitzerShell_GRAN.label>制作一架带有手榴弹悬挂装置的无人机 x3</MakeAmmo_DroneHowitzerShell_GRAN.label>
+ <MakeAmmo_DroneHowitzerShell_GRAN.description>用废料制作无线电遥控无人机。</MakeAmmo_DroneHowitzerShell_GRAN.description>
+ <MakeAmmo_DroneHowitzerShell_GRAN.jobString>创建一组攻击无人机。</MakeAmmo_DroneHowitzerShell_GRAN.jobString>
+
+ <MakeAmmo_DroneHowitzerShell_MIN.label>制作狂怒攻击无人机</MakeAmmo_DroneHowitzerShell_MIN.label>
+ <MakeAmmo_DroneHowitzerShell_MIN.description>用废旧材料制作一架无线电遥控无人机，该无人机配备了带有 anithmatter 的弹药</MakeAmmo_DroneHowitzerShell_MIN.description>
+ <MakeAmmo_DroneHowitzerShell_MIN.jobString>创建一组攻击无人机。</MakeAmmo_DroneHowitzerShell_MIN.jobString>
+
+ <MakeAmmo_EngineDrone.label>制作引擎</MakeAmmo_EngineDrone.label>
+ <MakeAmmo_EngineDrone.description>制作迷你 ICE（ICE - 内燃机）是一种小型内燃机，设计用于小型机器、设备或特定任务。与汽车或卡车等使用的内燃机相比，微型内燃机通常具有较小的排量和较低的功率。</MakeAmmo_EngineDrone.description>
+ <MakeAmmo_EngineDrone.jobString>创建迷你 ICE。</MakeAmmo_EngineDrone.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.label>制作90毫米白磷炮弹x5</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>
+ <MakeAmmo_90mmCannonShell_WhitePhosphorus.description>制作 5 枚 90mm 白磷炮弹。</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>
+ <MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>制作90毫米白磷炮弹。</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>
+
+</LanguageData>

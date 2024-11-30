@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_DroneHowitzerShell_HE.label>Ворона МК1(HE)</Ammo_DroneHowitzerShell_HE.label>
+  <Ammo_DroneHowitzerShell_HE.description>Малый ударный дрон-Ярость Воронёнка.</Ammo_DroneHowitzerShell_HE.description>
+
+  <Ammo_DroneHowitzerShell_EMI.label>Скат МК2(ЭМИ)</Ammo_DroneHowitzerShell_EMI.label>
+  <Ammo_DroneHowitzerShell_EMI.description>Малый дрон поддержки-Ионный Скат.</Ammo_DroneHowitzerShell_EMI.description>
+
+  <Ammo_DroneHowitzerShell_MIN.label>Фурия МК3(Мины)</Ammo_DroneHowitzerShell_MIN.label>
+  <Ammo_DroneHowitzerShell_MIN.description>Малый ударный дрон-Коварство Фурии.</Ammo_DroneHowitzerShell_MIN.description>
+
+  <Ammo_DroneHowitzerShell_GRAN.label>Виверна МК4(HE)</Ammo_DroneHowitzerShell_GRAN.label>
+  <Ammo_DroneHowitzerShell_GRAN.description>Малый ударный дрон-Месть Виверны.</Ammo_DroneHowitzerShell_GRAN.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_DroneHowitzerShell_HE.label>Каааар! МК1</Bullet_DroneHowitzerShell_HE.label>
+  <Bullet_DroneHowitzerShell_EMI.label>Скат! МК2</Bullet_DroneHowitzerShell_EMI.label>
+  <Bullet_DroneHowitzerShell_GRAN.label>Вжух! МК3</Bullet_DroneHowitzerShell_GRAN.label>
+  <Bullet_DroneHowitzerShell_MIN.label>Кряяя! МК4</Bullet_DroneHowitzerShell_MIN.label>
+
+
+  <!-- direct fire -->
+
+  <Bullet_DroneHowitzerShell_HE_directfire.label>Дрон без управления </Bullet_DroneHowitzerShell_HE_directfire.label>
+  <Bullet_DroneHowitzerShell_EMI_directfire.label>Дрон без управления </Bullet_DroneHowitzerShell_EMI_directfire.label>
+  <Bullet_DroneHowitzerShell_GRAN_directfire.label>Дрон без управления</Bullet_DroneHowitzerShell_GRAN_directfire.label>
+
+
+  <!-- <ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_Incendiary_directfire</defName>
+		<label>Drone Howitzer shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/INC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.20</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>4</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+  <Bullet_DroneHowitzerShell_MIN_directfire.label>Дрон без управления</Bullet_DroneHowitzerShell_MIN_directfire.label>
+
+
+</LanguageData>

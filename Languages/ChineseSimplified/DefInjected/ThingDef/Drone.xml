@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+ <Ammo_DroneHowitzerShell_HE.label>乌鸦 MK1(HE)</Ammo_DroneHowitzerShell_HE.label>
+ <Ammo_DroneHowitzerShell_HE.description>小型攻击无人机 - 渡鸦之怒。</Ammo_DroneHowitzerShell_HE.description>
+
+ <Ammo_DroneHowitzerShell_EMI.label>Skat MK3 (EMI)</Ammo_DroneHowitzerShell_EMI.label>
+ <Ammo_DroneHowitzerShell_EMI.description>小型支援无人机 - 离子射线。</Ammo_DroneHowitzerShell_EMI.description>
+
+ <Ammo_DroneHowitzerShell_MIN.label>狂怒 MK4（地雷）</Ammo_DroneHowitzerShell_MIN.label>
+ <Ammo_DroneHowitzerShell_MIN.description>用于布设雷区的小型攻击无人机。</Ammo_DroneHowitzerShell_MIN.description>
+
+ <Ammo_DroneHowitzerShell_GRAN.label>飞龙 MK1(HE)</Ammo_DroneHowitzerShell_GRAN.label>
+ <Ammo_DroneHowitzerShell_GRAN.description>小型攻击无人机 - 双足飞龙之怒。</Ammo_DroneHowitzerShell_GRAN.description>
+  <!-- Projectiles -->
+<Bullet_DroneHowitzerShell_HE.label>卡啊！ MK1</Bullet_DroneHowitzerShell_HE.label>
+ <Bullet_DroneHowitzerShell_EMI.label>开枪！ MK3</Bullet_DroneHowitzerShell_EMI.label>
+ <Bullet_DroneHowitzerShell_GRAN.label>唷！ MK1</Bullet_DroneHowitzerShell_GRAN.label>
+ <Bullet_DroneHowitzerShell_MIN.label>Fury 4（地雷）</Bullet_DroneHowitzerShell_MIN.label>
+
+
+ <!-- 直接射击 -->
+
+ <Bullet_DroneHowitzerShell_HE_directfire.label>无控制无人机（HE）</Bullet_DroneHowitzerShell_HE_directfire.label>
+ <Bullet_DroneHowitzerShell_EMI_directfire.label>无控制无人机（emi）</Bullet_DroneHowitzerShell_EMI_directfire.label>
+ <Bullet_DroneHowitzerShell_GRAN_directfire.label>失去控制的飞龙</Bullet_DroneHowitzerShell_GRAN_directfire.label>
+
+
+  <!-- <ThingDef ParentName="BaseDroneHowitzerShellDirectfire">
+		<defName>Bullet_DroneHowitzerShell_Incendiary_directfire</defName>
+		<label>Drone Howitzer shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Howitzer/INC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>31</damageAmountBase>
+			<explosionRadius>9.5</explosionRadius>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.20</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Thermobaric</explosiveDamageType>
+				<explosiveRadius>4</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+ <Bullet_DroneHowitzerShell_MIN_directfire.label>无人机（地雷）</Bullet_DroneHowitzerShell_MIN_directfire.label>
+
+
+</LanguageData>

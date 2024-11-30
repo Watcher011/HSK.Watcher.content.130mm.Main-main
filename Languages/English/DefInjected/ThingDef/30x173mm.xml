@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_30x173mm_WhitePhosphorus.label>30x173mm cartridge (White Phosphorus)</Ammo_30x173mm_WhitePhosphorus.label>
+  <Ammo_30x173mm_WhitePhosphorus.description>The 30x173mm caliber is a specific size of cannon and autocannon ammunition.</Ammo_30x173mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_30x173mm_WhitePhosphorus.label>30x173mm bullet (White Phosphorus)</Bullet_30x173mm_WhitePhosphorus.label>
+
+
+</LanguageData>

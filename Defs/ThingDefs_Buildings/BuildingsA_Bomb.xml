@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="BasedRimefellerMom">
+		<defName>WhitePhosphorusBomb</defName>
+		<label>Фософорная бомба</label>
+		<description>Фософорная бомба</description>
+		<thingClass>Rimefeller.NapalmBomb</thingClass>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<uiIconPath>Rimefeller/UI/NapalmBomb</uiIconPath>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<thingCategories>
+			<li>Oil</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Rimefeller/Things/Resource/OilBarrel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<building>
+			<expandHomeArea>false</expandHomeArea>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+			<repairable>false</repairable>
+		</building>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>Ignite</useJob>
+				<useLabel>Ignite</useLabel>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>WhitePhosphorus</explosiveDamageType>
+				<startWickOnDamageTaken>
+					 <li>Bomb</li>
+                     <li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.8</startWickHitPointsPercent>
+				<destroyThingOnExplosionSize>1</destroyThingOnExplosionSize>
+				<preExplosionSpawnThingDef>WhitePhosphorus_Smoke</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>
+					<min>1</min>
+					<max>2</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<costList>
+			<WhitePhosphorus>20</WhitePhosphorus>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plastic>15</Plastic>
+		</costList>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>4.0</Flammability>
+			<Mass>25</Mass>
+		</statBases>
+		<researchPrerequisites>
+			<li>Chemistry_C3</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_WhitePhosphorus</defName>
+    <label>Фосфорная мина</label>
+    <description>Взрывное устройствос белым фосфором, соединенных со спусковым крючком, который взрывается при прикосновении или ударе пули. Поскольку он скрыт в окружающей местности, его нельзя размещать рядом с другими ловушками. Животные могут чувствовать это, когда спокойны.</description>
+    <graphicData>
+     	 <texPath>Things/Building/IEDAGWT</texPath>
+    </graphicData>
+    <uiOrder>41</uiOrder>
+    <costList>
+           	<WhitePhosphorus>20</WhitePhosphorus>
+			<Powder>3</Powder>
+			<ElectronicComponents>3</ElectronicComponents>
+			<Mechanism>1</Mechanism>
+    </costList>
+    <designationHotKey>Misc8</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+       <explosiveDamageType>WhitePhosphorus</explosiveDamageType>
+	   <preExplosionSpawnThingDef>WhitePhosphorus_Smoke</preExplosionSpawnThingDef>
+	    <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+    </comps>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_90mmCannonShell_WhitePhosphorus.label>90mm cannon shell (White Phosphorus)</Ammo_90mmCannonShell_WhitePhosphorus.label>
+  <Ammo_90mmCannonShell_WhitePhosphorus.description>Relatively small cannon shell.</Ammo_90mmCannonShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_90mmCannonShell_WhitePhosphorus.label>90mm cannon shell (White Phosphorus)</Bullet_90mmCannonShell_WhitePhosphorus.label>
+
+
+</LanguageData>

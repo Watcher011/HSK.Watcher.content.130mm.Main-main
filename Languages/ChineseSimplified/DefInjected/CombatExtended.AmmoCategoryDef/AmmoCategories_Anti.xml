@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <ANTI.label>反物质</ANTI.label>
+ <ANTI.labelShort>反</ANTI.labelShort>
+ <ANTI.description>反物质是由反粒子组成的物质，在自然界中并非一致形成。</ANTI.description>
+
+ <Mine.label>挖矿系统</Mine.label>
+ <Mine.labelShort>CM</Mine.labelShort>
+ <Mine.description>远程采矿系统 - 专为在特别危险的方向快速创建雷区而设计。</Mine.description>
+
+ <FLMine.label>重置系统</FLMine.label>
+ <FLMine.labelShort>SAT</FLMine.labelShort>
+ <FLMine.description>远程手榴弹释放系统。</FLMine.description>
+
+ <FLEmi.label>电磁辐射抑制系统</FLEmi.label>
+ <FLEmi.labelShort>withEMIP</FLEmi.labelShort>
+ <FLEmi.description>EMI 干扰系统。</FLEmi.description>
+
+ <WPH.label>白磷(WPH)</WPH.label>
+ <WPH.labelShort>WPH</WPH.labelShort>
+ <WPH.description>磷弹药。</WPH.description>
+
+ <DD.label>DeadlifeDust</DD.label>
+ <DD.labelShort>DD</DD.labelShort>
+ <DD.description>死亡生命的尘埃。</DD.description>
+</LanguageData>

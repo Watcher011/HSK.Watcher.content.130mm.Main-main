@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_Mortar_Drone.label>Катапульта БПЛА</Turret_Mortar_Drone.label>
+  <Turret_Mortar_Drone.description>Простая катапульта что способна запускать БПЛА.</Turret_Mortar_Drone.description>
+
+  <MinifiedTurret_DronMortar.label>Неразвернутая Катапульта БПЛА</MinifiedTurret_DronMortar.label>
+
+  <ArtilleryDron_Mortar.label>Катапульта БПЛА</ArtilleryDron_Mortar.label>
+  <ArtilleryDron_Mortar.description>Простая катапульта что способна запускать БПЛА</ArtilleryDron_Mortar.description>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ExtractPhosphorus.label>获取白磷</ExtractPhosphorus.label>
+ <ExtractPhosphorus.description>获取白磷</ExtractPhosphorus.description>
+ <ExtractPhosphorus.jobString>接收白磷。</ExtractPhosphorus.jobString>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.label>Снаряд 155-мм гаубицы (Белый фосфор)</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.description>Большой артиллерийский снаряд, используемый гаубицами.</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus.label>Снаряд 155-мм гаубицы (Белый фосфор)</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
+
+
+  <!-- direct fire -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>Снаряд 155-мм гаубицы (WhitePhosphorus)</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
+
+
+</LanguageData>

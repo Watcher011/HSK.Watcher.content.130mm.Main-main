@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WhitePhosphorusInhalation.label>백린</WhitePhosphorusInhalation.label>
+  <WhitePhosphorusInhalation.description>백린 증기</WhitePhosphorusInhalation.description>
+  <WhitePhosphorusInhalation.stages.0.label>사소한</WhitePhosphorusInhalation.stages.0.label>
+  <WhitePhosphorusInhalation.stages.1.label>보통</WhitePhosphorusInhalation.stages.1.label>
+  <WhitePhosphorusInhalation.stages.2.label>심각</WhitePhosphorusInhalation.stages.2.label>
+  <WhitePhosphorusInhalation.stages.3.label>극단</WhitePhosphorusInhalation.stages.3.label>
+  <WhitePhosphorusInhalation.labelNoun>백린탄으로 인해 눈 화상을 입음</WhitePhosphorusInhalation.labelNoun>
+
+<PlagueMod.label>생물 역병</PlagueMod.label>
+ <PlagueMod.description>역병의 강화된 버전입니다.</PlagueMod.description>
+ <PlagueMod.stages.0.label>☣</PlagueMod.stages.0.label>
+
+</LanguageData>

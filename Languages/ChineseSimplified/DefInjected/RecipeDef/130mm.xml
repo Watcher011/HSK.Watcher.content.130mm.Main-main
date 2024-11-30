@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_130mmRocketMissile.label>制作130毫米破片火箭x1</MakeAmmo_130mmRocketMissile.label>
+ <MakeAmmo_130mmRocketMissile.description>创建 130mm 碎片火箭。</MakeAmmo_130mmRocketMissile.description>
+ <MakeAmmo_130mmRocketMissile.jobString>创建 130mm 碎片火箭。</MakeAmmo_130mmRocketMissile.jobString>
+
+ <MakeAmmo_130mmRocketFLMissile.label>制作130毫米荧光火箭x1</MakeAmmo_130mmRocketFLMissile.label>
+ <MakeAmmo_130mmRocketFLMissile.description>创建 130mm 磷火箭。</MakeAmmo_130mmRocketFLMissile.description>
+ <MakeAmmo_130mmRocketFLMissile.jobString>制造 130 毫米磷火箭。</MakeAmmo_130mmRocketFLMissile.jobString>
+
+ <MakeAmmo_130mmRocketAntiMissile.label>制造130毫米反物质火箭x1</MakeAmmo_130mmRocketAntiMissile.label>
+ <MakeAmmo_130mmRocketAntiMissile.description>创建一枚 130mm 反物质火箭。</MakeAmmo_130mmRocketAntiMissile.description>
+ <MakeAmmo_130mmRocketAntiMissile.jobString>创建一枚 130mm 反物质火箭。</MakeAmmo_130mmRocketAntiMissile.jobString>
+
+ <MakeAmmo_130mmRocketEMIMissile.label>制作130mm EMI火箭x1</MakeAmmo_130mmRocketEMIMissile.label>
+ <MakeAmmo_130mmRocketEMIMissile.description>创建一枚 130mm EMI 火箭。</MakeAmmo_130mmRocketEMIMissile.description>
+ <MakeAmmo_130mmRocketEMIMissile.jobString>创建 130mm EMI 火箭。</MakeAmmo_130mmRocketEMIMissile.jobString>
+
+ <MakeAmmo_130mmRocketDeadlifeDustMissile.label>制作130毫米僵尸火箭x1</MakeAmmo_130mmRocketDeadlifeDustMissile.label>
+ <MakeAmmo_130mmRocketDeadlifeDustMissile.description>创建一枚 130mm 僵尸火箭。</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
+ <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>创建 130 毫米僵尸火箭。</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
+</LanguageData>

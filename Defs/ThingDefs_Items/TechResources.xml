@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+
+<ThingDef ParentName="SK_ResourceBase">
+		 <defName>Engine</defName>
+        <label>Маленький ДВС</label>
+		  <description>Маленький двигатель</description>
+        <graphicData>
+            <texPath>Things/Building/Wheel</texPath>
+		    <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.8)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>15</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<DeteriorationRate>0.02</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>3.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+			
+		<tickerType>Normal</tickerType>
+		<comps>
+		</comps>
+		<thingCategories>
+			 <li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+ 
+</Defs>

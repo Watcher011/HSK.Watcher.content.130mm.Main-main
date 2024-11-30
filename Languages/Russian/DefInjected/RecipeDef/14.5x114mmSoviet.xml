@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_145x114mm_WhitePhosphorus.label>Изготовить патрон 14,5х114мм (Белый Фосфор) х30</MakeAmmo_145x114mm_WhitePhosphorus.label>
+  <MakeAmmo_145x114mm_WhitePhosphorus.description>Патроны 14,5х114мм (Белый Фосфор).</MakeAmmo_145x114mm_WhitePhosphorus.description>
+  <MakeAmmo_145x114mm_WhitePhosphorus.jobString>Изготовление патронов 14,5х114мм (Белый Фосфор).</MakeAmmo_145x114mm_WhitePhosphorus.jobString>
+
+
+</LanguageData>

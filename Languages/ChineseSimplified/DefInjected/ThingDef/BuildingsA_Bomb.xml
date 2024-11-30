@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<WhitePhosphorusBomb.label>磷炸弹</WhitePhosphorusBomb.label>
+ <WhitePhosphorusBomb.description>磷炸弹</WhitePhosphorusBomb.description>
+ <WhitePhosphorusBomb.comps.0.useLabel>点燃</WhitePhosphorusBomb.comps.0.useLabel>
+
+ <TrapIED_WhitePhosphorus.label>磷矿</TrapIED_WhitePhosphorus.label>
+ <TrapIED_WhitePhosphorus.description>一种含有白磷的爆炸装置，连接到触发器，在被子弹接触或击中时会爆炸。由于它隐藏在周围区域，因此不能放置在其他陷阱附近。动物在平静时可以感受到这一点。</TrapIED_WhitePhosphorus.description>
+
+</LanguageData>

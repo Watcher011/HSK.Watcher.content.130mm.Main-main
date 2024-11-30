@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Trap2_Frag.label>Коробка с Противопехотными минами</Trap2_Frag.label>
+  <Trap2_Frag.description>Коробка мин.Взрывоопасно</Trap2_Frag.description>
+
+  <bio_container.label>Коробка с чумным патогеном</bio_container.label>
+  <bio_container.description>Чумной патоген , крайне опасен.(Хранить в холоде)</bio_container.description>
+
+
+</LanguageData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Saltpeter-->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WhitePhosphorus</defName>
+		<label>Белый фосфор</label>
+		<description>Белый фосфор – химическое воскообразное твердое вещество, обычно желтоватого или белого цвета.При контакте с кислородом мгновенно воспламеняется. Часто используется в военных целях для освещения поля боя, создания дымовой завесы, а также в составе зажигательных боеприпасов.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Nitre</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(175,180,150)</color>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0.01</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>6.2</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.05</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>215</min>
+					<max>440</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<stackLimit>300</stackLimit>
+		<thingCategories>
+			<li>Extracted</li>
+		</thingCategories>
+		<deepCommonality>1.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>30</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>42</min>
+			<max>85</max>
+		</deepLumpSizeRange>
+	</ThingDef>
+
+
+</Defs>
