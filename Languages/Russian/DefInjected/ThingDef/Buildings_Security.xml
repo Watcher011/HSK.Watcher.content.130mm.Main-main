@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Turret_Mortar_Drone.label>Катапульта БПЛА</Turret_Mortar_Drone.label>
-  <Turret_Mortar_Drone.description>Простая катапульта что способна запускать БПЛА.</Turret_Mortar_Drone.description>
+  <SRLGun.label>РК RGM-1 "Штиль"</SRLGun.label>
+  <SRLGun.description>Тяжелая ракетная система выпускает 1 ракету по целевой области с каждым залпом. Стреляет через стены и требует оператора. Башня взрывается при сильном повреждении.</SRLGun.description>
 
-  <MinifiedTurret_DronMortar.label>Неразвернутая Катапульта БПЛА</MinifiedTurret_DronMortar.label>
-
-  <ArtilleryDron_Mortar.label>Катапульта БПЛА</ArtilleryDron_Mortar.label>
-  <ArtilleryDron_Mortar.description>Простая катапульта что способна запускать БПЛА</ArtilleryDron_Mortar.description>
+  <Gun_SRL.label>РК RGM-1 "Штиль"</Gun_SRL.label>
+  <Gun_SRL.description>Установленная на башне ракетная система Штиль. Использует 1 ракету.</Gun_SRL.description>
 
 
 </LanguageData>

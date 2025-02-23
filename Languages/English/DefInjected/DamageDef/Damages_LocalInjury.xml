@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <WhitePhosphorus.label>White phosphorus</WhitePhosphorus.label>
-  <WhitePhosphorus.deathMessage>{0} has been killed.</WhitePhosphorus.deathMessage>
-<BioGas.label>Plague Spores</BioGas.label>
-<BioGas.deathMessage>{0} has been killed.</BioGas.deathMessage>
-
-</LanguageData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RocketHE.label>Фугасный</RocketHE.label>
+  <RocketHE.labelShort>HE</RocketHE.labelShort>
+  <RocketHE.description>Предназначен для взрыва, поражая цели на большой площади.</RocketHE.description>
+
+  <RocketFl.label>Зажигательный</RocketFl.label>
+  <RocketFl.labelShort>Fl</RocketFl.labelShort>
+  <RocketFl.description>Предназначен для распыления огненной смеси, поражающей цели на большой площади.</RocketFl.description>
+
+  <RocketCL.label>Кластерный</RocketCL.label>
+  <RocketCL.labelShort>CL</RocketCL.labelShort>
+  <RocketCL.description>Предназначен для доставки кассетной бомбы, которая поражает цель на большой площади.</RocketCL.description>
+
+  <RocketAM.label>Антиматериальный</RocketAM.label>
+  <RocketAM.labelShort>AM</RocketAM.labelShort>
+  <RocketAM.description>Предназначен для доставки бомб с частицами антиматерии, которые поражают цель на очень большой площади.</RocketAM.description>
+
+  <RocketEMP.label>ЭМИ</RocketEMP.label>
+  <RocketEMP.labelShort>ЭМИ</RocketEMP.labelShort>
+  <RocketEMP.description>Предназначен для доставки бомб с частицами ЭМИ, которые поражают цель на очень большой площади.</RocketEMP.description>
+
+  <RocketNuclear.label>Ядерный</RocketNuclear.label>
+  <RocketNuclear.labelShort>Ядерный</RocketNuclear.labelShort>
+  <RocketNuclear.description>Малая ядерная боеголовка ракеты, поражающая цель на очень большой площади.</RocketNuclear.description>
+
+  <RocketDL.label>Пыль мертвой жизни</RocketDL.label>
+  <RocketDL.labelShort>DL</RocketDL.labelShort>
+  <RocketDL.description>Предназначен для взрыва Пыли мертвой жизни, нанося урон целям на большой площади.</RocketDL.description>
+
+  <RocketWPS.label>Белый фосфор</RocketWPS.label>
+  <RocketWPS.labelShort>WPS</RocketWPS.labelShort>
+  <RocketWPS.description>Предназначен для взрыва белого фосфора, поражающего цели на большой площади.</RocketWPS.description>
+
+
+</LanguageData>

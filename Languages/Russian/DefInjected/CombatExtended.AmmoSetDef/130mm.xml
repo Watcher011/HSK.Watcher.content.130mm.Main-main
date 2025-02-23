@@ -3,8 +3,7 @@
 
   <!-- AmmoSet -->
 
-  <AmmoSet_130mmRocketMissile.label>130-мм реактивная ракета</AmmoSet_130mmRocketMissile.label>
-  <AmmoSet_130mmRocketMissile_directfire.label>130-мм реактивная ракета прямой наводки</AmmoSet_130mmRocketMissile_directfire.label>
+  <AmmoSet_130mmRocketMissile.label>130-мм реактивный снаряд</AmmoSet_130mmRocketMissile.label>
 
 
 </LanguageData>

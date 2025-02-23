@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
+
+  <WhitePhosphorus.label>Белый фосфор</WhitePhosphorus.label>
+  <WhitePhosphorus.deathMessage>{0} был убит.</WhitePhosphorus.deathMessage>
+
+
+</LanguageData>

@@ -3,43 +3,44 @@
 
   <!-- Ammo -->
 
-  <Ammo_130mmRocketMissile.label>130mm осколочные  боеприпасы (HE)</Ammo_130mmRocketMissile.label>
-  <Ammo_130mmRocketMissile.description>130mm  снаряды что запрещены конвенциями мира.</Ammo_130mmRocketMissile.description>
+  <Ammo_130mmRocketCluster.label>130-мм ракета (Кластерная)</Ammo_130mmRocketCluster.label>
+  <Ammo_130mmRocketCluster.description>130-мм ракета с кассетной головкой.</Ammo_130mmRocketCluster.description>
 
-  <Ammo_130mmRocketFLMissile.label>130mm фосфорные боеприпасы (P)</Ammo_130mmRocketFLMissile.label>
-  <Ammo_130mmRocketFLMissile.description>130 mm  с начинкой из белого фосфора ,созданы по патенту фирмы Parabellum.Не гуманное оружие что запрещено во множестве миров.</Ammo_130mmRocketFLMissile.description>
+  <Ammo_130mmRocketNuclear.label>130-мм ракета (Ядерная)</Ammo_130mmRocketNuclear.label>
+  <Ammo_130mmRocketNuclear.description>130-мм ракета с ядерной головкой.</Ammo_130mmRocketNuclear.description>
 
-  <Ammo_130mmRocketAntiMissile.label>130mm Антиматериальные боеприпасы (Anti)</Ammo_130mmRocketAntiMissile.label>
-  <Ammo_130mmRocketAntiMissile.description>130 mm  с начинкой из антиматерии, одна капсула антиматерии способна год питать энергией мегаполис, а мы обстреливаем ей рейдеров.</Ammo_130mmRocketAntiMissile.description>
+  <Ammo_130mmRocketAntimaterial.label>130-мм ракета (Антиматерия)</Ammo_130mmRocketAntimaterial.label>
+  <Ammo_130mmRocketAntimaterial.description>130-мм антиматериальная реактивная ракета.</Ammo_130mmRocketAntimaterial.description>
 
-  <Ammo_130mmRocketEMIMissile.label>130mm ЭМИ боеприпасы (EMI)</Ammo_130mmRocketEMIMissile.label>
-  <Ammo_130mmRocketEMIMissile.description>130 mm  с  эми начинкой мгновенно выключаяет щиты, турели, миномёты и отключает механоидов на 25 секунд.</Ammo_130mmRocketEMIMissile.description>
+  <Ammo_130mmRocketIncendiary.label>130-мм реактивная ракета (зажигательная)</Ammo_130mmRocketIncendiary.label>
+  <Ammo_130mmRocketIncendiary.description>130-мм зажигательная реактивная ракета.</Ammo_130mmRocketIncendiary.description>
 
-  <Ammo_130mmRocketDeadlifeDustMissile.label>130mm «Пыль мертвой жизни» боеприпасы (DeadlifeDust)</Ammo_130mmRocketDeadlifeDustMissile.label>
-  <Ammo_130mmRocketDeadlifeDustMissile.description>130 mm  с начинкой «Пыльи мертвой жизни» последствия неизвестны.</Ammo_130mmRocketDeadlifeDustMissile.description>
+  <Ammo_130mmRocketMissile.label>130-мм реактивная ракета (HE)</Ammo_130mmRocketMissile.label>
+  <Ammo_130mmRocketMissile.description>130-мм реактивная ракета.</Ammo_130mmRocketMissile.description>
 
-  <Ammo_130mmRocketBio.label>130mm «Модифицированный штамм чумы» боеприпасы (Bio)</Ammo_130mmRocketBio.label>
-  <Ammo_130mmRocketBio.description>Модифицированный штамм чумы со скоротечным периудом жизни, выведен для поражения живой силы. В связи с быстрым инкубационным периудом почти не поддаётся лечению, имеет 97% летальность. В течение суток на открытом воздухе патоген теряет свои свойства. Производство и хранение нарушает все конвенции о запрете разработки, производства и накопления запасов бактериологического (биологического) и токсинного оружия</Ammo_130mmRocketBio.description>
+  <Ammo_130mmRocketDeadlife.label>130-мм ракета «Мертвая жизнь»</Ammo_130mmRocketDeadlife.label>
+  <Ammo_130mmRocketDeadlife.description>130-мм ракета «Мёртвая жизнь».</Ammo_130mmRocketDeadlife.description>
+
+  <Ammo_130mmRocketEMP.label>130-мм реактивная ракета (ЭМИ)</Ammo_130mmRocketEMP.label>
+  <Ammo_130mmRocketEMP.description>130-мм реактивная ракета ЭМИ.</Ammo_130mmRocketEMP.description>
+
+  <Ammo_130mmRocketWhitePhosphorus.label>130-мм ракета (Белый Фосфор)</Ammo_130mmRocketWhitePhosphorus.label>
+  <Ammo_130mmRocketWhitePhosphorus.description>130-мм ракета «Белый фосфор».</Ammo_130mmRocketWhitePhosphorus.description>
 
 
   <!-- Projectiles -->
 
-  <Bullet_130mmRocketMissile.label>130mm осколочные  боеприпасы (HE)</Bullet_130mmRocketMissile.label>
-  <Bullet_130mmRocketFLMissile.label>130mm фосфорные боеприпасы (P)</Bullet_130mmRocketFLMissile.label>
-  <Bullet_130mmRocketAntiMissile.label>130мм кластерная антиматериальная ракета(Anti)</Bullet_130mmRocketAntiMissile.label>
-  <Bullet_130mmRocketEMIMissile.label>130mm ЭМИ боеприпасы (EMI)</Bullet_130mmRocketEMIMissile.label>
-  <Bullet_130mmRocketDeadlifeDustMissile.label>130mm боеприпасы мертвой жизни(DeadlifeDust)</Bullet_130mmRocketDeadlifeDustMissile.label>
-  <Bullet_130mmRocketBio.label>130mm боеприпасы с чумой</Bullet_130mmRocketBio.label>
+  <Bullet_130mmRocketMissile.label>130-мм реактивная ракета со осколочно-фугасным зарядом</Bullet_130mmRocketMissile.label>
+  <Bullet_130mmDeadlifeRocketMissile.label>130-мм ракета «Мёртвая жизнь»</Bullet_130mmDeadlifeRocketMissile.label>
+  <Bullet_130mmRocketIncendiary.label>130-мм реактивная ракета с осколочно-фугасным зарядом ракеты</Bullet_130mmRocketIncendiary.label>
+  <Bullet_130mmRocketWhitePhosphorus.label>130-мм ракета «Белый фосфор»</Bullet_130mmRocketWhitePhosphorus.label>
+  <Bullet_130mmRocketNuclear.label>130-мм ядерная ракета</Bullet_130mmRocketNuclear.label>
+  <Bullet_130mmRocketEMP.label>130-мм ракета с ЭМИ</Bullet_130mmRocketEMP.label>
+  <Bullet_130mmRocketCluster.label>130-мм кассетная ракета</Bullet_130mmRocketCluster.label>
+  <Bullet_130mmRocketAntimaterial.label>130-мм антиматериальная ракета</Bullet_130mmRocketAntimaterial.label>
 
 
-  <!-- direct fire -->
-
-  <Bullet_130mmRocketMissile_directfire.label>130mm осколочные  боеприпасы (HE)</Bullet_130mmRocketMissile_directfire.label>
-  <Bullet_130mmRocketFLMissile_directfire.label>130mm фосфорные боеприпасы (P)</Bullet_130mmRocketFLMissile_directfire.label>
-  <Bullet_130mmRocketAntiMissile_directfire.label>130мм Антиматериальные кластерные снаряды (Anti)</Bullet_130mmRocketAntiMissile_directfire.label>
-  <Bullet_130mmRocketEMIMissile_directfire.label>130mm ЭМИ боеприпасы (EMI)</Bullet_130mmRocketEMIMissile_directfire.label>
-  <Bullet_130mmRocketDeadlifeDustMissile_directfire.label>130mm боеприпасы мертвой жизни(DeadlifeDust)</Bullet_130mmRocketDeadlifeDustMissile_directfire.label>
-  <Bullet_130mmRocketBio_directfire.label>130mm «Модифицированный штамм чумы»</Bullet_130mmRocketBio_directfire.label>
-
+  <!-- Снаряды -->
+  <!--<Bullet_130mmRocketAnmaterial.label>130-мм антиматериальная ракета</Bullet_130mmRocketAnmaterial.label>-->
 
 </LanguageData>

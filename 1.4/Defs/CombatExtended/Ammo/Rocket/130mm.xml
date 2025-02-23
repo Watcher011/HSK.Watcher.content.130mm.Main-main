@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo130mmRocketMissiles</defName>
+		<label>130mm rocket missile</label>
+		<parent>AmmoRockets</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_130mmRocketMissile</defName>
+		<label>130mm rocket missile (HE)</label>
+		<ammoTypes>
+			<Ammo_130mmRocketMissile>Bullet_130mmRocketMissile</Ammo_130mmRocketMissile>
+			<Ammo_130mmRocketIncendiary>Bullet_130mmRocketIncendiary</Ammo_130mmRocketIncendiary>
+			<Ammo_130mmRocketCluster>Bullet_130mmRocketCluster</Ammo_130mmRocketCluster>
+			<Ammo_130mmRocketAntimaterial>Bullet_130mmRocketAntimaterial</Ammo_130mmRocketAntimaterial>
+			<Ammo_130mmRocketEMP>Bullet_130mmRocketEMP</Ammo_130mmRocketEMP>
+			<Ammo_130mmRocketNuclear>Bullet_130mmRocketNuclear</Ammo_130mmRocketNuclear>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="130mmRocketMissileBase" ParentName="AmmoBase" Abstract="True">
+		<description>130mm rocket missile.</description>
+		<thingCategories>
+			<li>Ammo130mmRocketMissiles</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<statBases>
+			<Mass>8.6</Mass>
+			<Bulk>9</Bulk>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1</Flammability>
+		</statBases>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<cookOffSpeed>0.7</cookOffSpeed>
+		<cookOffFlashScale>40</cookOffFlashScale>
+		<cookOffTailSound>MortarBomb_Explode</cookOffTailSound>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketCluster</defName>
+		<label>130mm rocket missile (Cluster)</label>
+		<description>130mm Cluster Rocket Missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/Tandem</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>190</MarketValue>
+		</statBases>
+		<ammoClass>RocketCL</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketCluster</cookOffProjectile>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketNuclear</defName>
+		<label>130mm rocket missile (Nuclear)</label>
+		<description>130mm Nuclear Rocket Missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/Nuclear</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>490</MarketValue>
+		</statBases>
+		<ammoClass>RocketNuclear</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketNuclear</cookOffProjectile>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketAntimaterial</defName>
+		<label>130mm rocket missile (Antimaterial)</label>
+		<description>130mm Antimaterial Rocket Missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/Antimaterial</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>290</MarketValue>
+		</statBases>
+		<ammoClass>RocketAM</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketAntimaterial</cookOffProjectile>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketIncendiary</defName>
+		<label>130mm rocket missile (Incendiary)</label>
+		<description>130mm Incendiary Rocket Missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/Thermobaric</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>180</MarketValue>
+		</statBases>
+		<ammoClass>RocketFl</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketIncendiary</cookOffProjectile>
+	</ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketMissile</defName>
+		<label>130mm rocket missile (HE)</label>
+		<description>130mm rocket missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/HEAT</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>180</MarketValue>
+		</statBases>
+		<ammoClass>RocketFrag</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketMissile</cookOffProjectile>
+	</ThingDef>
+	
+	 <ThingDef Class="CombatExtended.AmmoDef" ParentName="130mmRocketMissileBase">
+		<defName>Ammo_130mmRocketEMP</defName>
+		<label>130mm rocket missile (EMP)</label>
+		<description>130mm EMP rocket missile.</description>
+		<graphicData>
+			<texPath>Things/Ammo/RPG/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<ammoClass>RocketEMP</ammoClass>
+		<cookOffProjectile>Bullet_130mmRocketEMP</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base130mmRocketMissile" ParentName="BaseRocketLauncher" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<flyOverhead>true</flyOverhead>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
+			<gravityFactor>10</gravityFactor>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ProjectileFleck">
+				<FleckDatas>
+					<li>
+						<fleck>Fleck_CERocketFlame</fleck>
+						<emissionsPerTick>7</emissionsPerTick>
+						<flecksPerEmission>3</flecksPerEmission>
+						<scale>1</scale>
+						<cutoffTickRange>25~30</cutoffTickRange>
+					</li>
+					<li>
+						<fleck>Fleck_CERocketSmokeTrail</fleck>
+						<emissionsPerTick>2</emissionsPerTick>
+						<flecksPerEmission>1</flecksPerEmission>
+					</li>
+					<li>
+						<fleck>Fleck_CERocketSmoke</fleck>
+						<emissionsPerTick>2</emissionsPerTick>
+						<flecksPerEmission>2</flecksPerEmission>
+						<cutoffTickRange>25~60</cutoffTickRange>
+					</li>
+				</FleckDatas>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketMissile</defName>
+		<label>130mm HE Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Thermobaric</damageDef>
+			<damageAmountBase>250</damageAmountBase>
+			<explosionRadius>10</explosionRadius>
+			<explosionChanceToStartFire>0.22</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<bulletChanceToStartFire>0.4</bulletChanceToStartFire>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>50</Fragment_Large>
+					<Fragment_Small>70</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketIncendiary</defName>
+		<label>130mm HE Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<explosionRadius>10.5</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1.15</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+		</projectile>
+	</ThingDef>
+	
+	
+	  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketNuclear</defName>
+		<label>130mm Nuclear Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>NuclearB</damageDef>
+			<damageAmountBase>450</damageAmountBase>
+			<explosionRadius>22</explosionRadius>
+			<explosionChanceToStartFire>0.95</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>nuclearBlastInMap</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.01</postExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+	</ThingDef>
+	
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketEMP</defName>
+		<label>130mm EMP Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_HeightFuse</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<explosionRadius>10.5</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<preExplosionSpawnThingDef>Bullet_30x29mmGrenade_EMP</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1.15</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+			<aimHeightOffset>8</aimHeightOffset>
+			<shellingProps>
+				<damage>0.013</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+				  <Bullet_30x29mmGrenade_EMP>5</Bullet_30x29mmGrenade_EMP>
+                  <Fragment_Small>100</Fragment_Small>
+                </fragments>
+               <fragAngleRange>-90~-48</fragAngleRange>
+            </li>
+		</comps>
+	</ThingDef>
+
+
+ <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketCluster</defName>
+		<label>130mm Cluster Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_HeightFuse</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+            <explosionRadius>1</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+			 <soundExplode>MortarBomb_Explode</soundExplode>
+             <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+             <ai_IsIncendiary>true</ai_IsIncendiary>
+            <aimHeightOffset>8</aimHeightOffset>
+			<shellingProps>
+				<damage>0.013</damage>
+			</shellingProps>
+        </projectile>
+	    <comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+				  <Fragment_Small>240</Fragment_Small>
+				  <Bullet_30x29mmGrenade_HE_TFuzed>10</Bullet_30x29mmGrenade_HE_TFuzed>
+                </fragments>
+               <fragAngleRange>-90~-48</fragAngleRange>
+            </li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base130mmRocketMissile">
+		<defName>Bullet_130mmRocketAntimaterial</defName>
+		<label>130mm Antimaterial Rocket missile</label>
+		<thingClass>CombatExtended.ProjectileCE_HeightFuse</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/130mmRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+            <explosionRadius>1</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+			 <soundExplode>MortarBomb_Explode</soundExplode>
+             <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+             <ai_IsIncendiary>true</ai_IsIncendiary>
+            <aimHeightOffset>8</aimHeightOffset>
+			<shellingProps>
+				<damage>0.013</damage>
+			</shellingProps>
+        </projectile>
+	    <comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+				  <Bullet_81mmMortarShell_Antigrain>3</Bullet_81mmMortarShell_Antigrain>
+                  <Fragment_Small>100</Fragment_Small>
+                </fragments>
+               <fragAngleRange>-90~-48</fragAngleRange>
+            </li>
+		</comps>
+	</ThingDef>
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketMissile</defName>
+		<label>make 130mm Rocket missiles x1</label>
+		<description>Craft 130mm Rocket missiles.</description>
+		<jobString>Making 130mm Rocket missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wire</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Wire</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketMissile>1</Ammo_130mmRocketMissile>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketIncendiary</defName>
+		<label>make 130mm Incendiary Rocket missiles x1</label>
+		<description>Craft 130mm Incendiary Rocket missiles.</description>
+		<jobString>Making 130mm Incendiary Rocket missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Sulfur</li>
+				<li>Prometheum</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketIncendiary>1</Ammo_130mmRocketIncendiary>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+
+   <RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketCluster</defName>
+		<label>make 130mm Cluster Rocket missiles x1</label>
+		<description>Craft 130mm Cluster Rocket missiles.</description>
+		<jobString>Making 130mm Cluster Rocket missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ammo_30x29mmGrenade_HE</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Ammo_30x29mmGrenade_HE</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketCluster>1</Ammo_130mmRocketCluster>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	 <RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketAntimaterial</defName>
+		<label>make 130mm Antimaterial Rocket missiles x1</label>
+		<description>Craft 130mm Antimaterial Rocket missiles.</description>
+		<jobString>Making 130mm Antimaterial Rocket missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Antimatter</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>Antimatter</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketAntimaterial>1</Ammo_130mmRocketAntimaterial>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketEMP</defName>
+		<label>make 130mm EMP Rocket missiles x1</label>
+		<description>Craft 130mm EMP Rocket missiles.</description>
+		<jobString>Making 130mm EMP Rocket missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+			    <li>ComponentAdvanced</li>
+				<li>Chemfuel</li>
+				<li>Plastic</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketEMP>1</Ammo_130mmRocketEMP>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_130mmRocketNuclear</defName>
+		<label>make 130mm Nuclear missiles x1</label>
+		<description>Craft 130mm Nuclear missiles.</description>
+		<jobString>Making 130mm Nuclear missiles.</jobString>
+		<workAmount>2000</workAmount>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>42</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NuclearWaste</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Chemfuel</li>
+				<li>NuclearWaste</li>
+				<li>Powder</li>
+				<li>Electronics</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_130mmRocketNuclear>1</Ammo_130mmRocketNuclear>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+</Defs>

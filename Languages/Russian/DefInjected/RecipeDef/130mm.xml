@@ -3,29 +3,37 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_130mmRocketMissile.label>Сделать 130mm осколочные  ракеты x1</MakeAmmo_130mmRocketMissile.label>
-  <MakeAmmo_130mmRocketMissile.description>Создать  130mm  осколочные  ракеты.</MakeAmmo_130mmRocketMissile.description>
-  <MakeAmmo_130mmRocketMissile.jobString>Создаёт  130mm  осколочные  ракеты.</MakeAmmo_130mmRocketMissile.jobString>
+  <MakeAmmo_130mmRocketMissile.label>сделать 130-мм ракету x1</MakeAmmo_130mmRocketMissile.label>
+  <MakeAmmo_130mmRocketMissile.description>Сделать 130-мм ракеты.</MakeAmmo_130mmRocketMissile.description>
+  <MakeAmmo_130mmRocketMissile.jobString>Сделать 130-мм ракеты.</MakeAmmo_130mmRocketMissile.jobString>
 
-  <MakeAmmo_130mmRocketFLMissile.label>Сделать 130mm фосфоорные ракеты x1</MakeAmmo_130mmRocketFLMissile.label>
-  <MakeAmmo_130mmRocketFLMissile.description>Создать  130mm  фосфорные ракеты.</MakeAmmo_130mmRocketFLMissile.description>
-  <MakeAmmo_130mmRocketFLMissile.jobString>Создаёт 130mm фосфорные ракеты.</MakeAmmo_130mmRocketFLMissile.jobString>
+  <MakeAmmo_130mmRocketIncendiary.label>сделать 130-мм зажигательную ракету x1</MakeAmmo_130mmRocketIncendiary.label>
+  <MakeAmmo_130mmRocketIncendiary.description>Создать 130-мм зажигательные ракеты.</MakeAmmo_130mmRocketIncendiary.description>
+  <MakeAmmo_130mmRocketIncendiary.jobString>Создание 130-мм зажигательных ракет.</MakeAmmo_130mmRocketIncendiary.jobString>
 
-  <MakeAmmo_130mmRocketAntiMissile.label>Создать 130mm антиматериальную ракету x1</MakeAmmo_130mmRocketAntiMissile.label>
-  <MakeAmmo_130mmRocketAntiMissile.description>Создание 130mm антиматериальную ракету.</MakeAmmo_130mmRocketAntiMissile.description>
-  <MakeAmmo_130mmRocketAntiMissile.jobString>Создаёт 130mm антиматериальную ракету.</MakeAmmo_130mmRocketAntiMissile.jobString>
+  <MakeAmmo_130mmRocketCluster.label>создать 130-мм кассетную ракету x1</MakeAmmo_130mmRocketCluster.label>
+  <MakeAmmo_130mmRocketCluster.description>Создать 130-мм кассетные ракеты.</MakeAmmo_130mmRocketCluster.description>
+  <MakeAmmo_130mmRocketCluster.jobString>Создание 130-мм кассетных ракет.</MakeAmmo_130mmRocketCluster.jobString>
 
-  <MakeAmmo_130mmRocketEMIMissile.label>Сделать 130mm EMI ракеты x1</MakeAmmo_130mmRocketEMIMissile.label>
-  <MakeAmmo_130mmRocketEMIMissile.description>Создать  130mm  EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.description>
-  <MakeAmmo_130mmRocketEMIMissile.jobString>Создаёт 130mm EMI ракеты.</MakeAmmo_130mmRocketEMIMissile.jobString>
+  <MakeAmmo_130mmRocketAntimaterial.label>создание 130-мм антиматериальную ракету x1</MakeAmmo_130mmRocketAntimaterial.label>
+  <MakeAmmo_130mmRocketAntimaterial.description>Создание 130-мм антиматериальных ракет.</MakeAmmo_130mmRocketAntimaterial.description>
+  <MakeAmmo_130mmRocketAntimaterial.jobString>Создание 130-мм антиматериальных ракет.</MakeAmmo_130mmRocketAntimaterial.jobString>
 
-  <MakeAmmo_130mmRocketDeadlifeDustMissile.label>Сделать 130mm зомби ракеты x1</MakeAmmo_130mmRocketDeadlifeDustMissile.label>
-  <MakeAmmo_130mmRocketDeadlifeDustMissile.description>Создать  130mm  зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.description>
-  <MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>Создаёт 130mm зомби ракеты.</MakeAmmo_130mmRocketDeadlifeDustMissile.jobString>
+  <MakeAmmo_130mmRocketEMP.label>создать 130-мм ракеты EMP ракету x1</MakeAmmo_130mmRocketEMP.label>
+  <MakeAmmo_130mmRocketEMP.description>Создать 130-мм ракеты EMP ракет.</MakeAmmo_130mmRocketEMP.description>
+  <MakeAmmo_130mmRocketEMP.jobString>Создание 130-мм ракет EMP ракет.</MakeAmmo_130mmRocketEMP.jobString>
 
-  <MakeAmmo_130mmRocketBio.label>Сделать 130mm  ракету c модифицированным штамом чумы x1</MakeAmmo_130mmRocketBio.label>
-  <MakeAmmo_130mmRocketBio.description>Создать  130mm  био ракеты.</MakeAmmo_130mmRocketBio.description>
-  <MakeAmmo_130mmRocketBio.jobString>Создаёт 130mm био ракеты.</MakeAmmo_130mmRocketBio.jobString>
+  <MakeAmmo_130mmRocketNuclear.label>создать 130-мм ядерную ракету x1</MakeAmmo_130mmRocketNuclear.label>
+  <MakeAmmo_130mmRocketNuclear.description>Создание 130-мм ядерных ракет.</MakeAmmo_130mmRocketNuclear.description>
+  <MakeAmmo_130mmRocketNuclear.jobString>Создание 130-мм ядерных ракет.</MakeAmmo_130mmRocketNuclear.jobString>
+
+  <MakeAmmo_130mmRocketDeadlife.label>сделать 130-мм ракету «Мёртвая жизнь» x1</MakeAmmo_130mmRocketDeadlife.label>
+  <MakeAmmo_130mmRocketDeadlife.description>Создать 130-мм ракеты «Мёртвая жизнь».</MakeAmmo_130mmRocketDeadlife.description>
+  <MakeAmmo_130mmRocketDeadlife.jobString>Создание 130-мм ракет «Мертвая жизнь».</MakeAmmo_130mmRocketDeadlife.jobString>
+
+  <MakeAmmo_130mmRocketWhitePhosphorus.label>создать 130-мм ракету с белым фосфором x1</MakeAmmo_130mmRocketWhitePhosphorus.label>
+  <MakeAmmo_130mmRocketWhitePhosphorus.description>Создать 130-мм ракету с белым фосфором.</MakeAmmo_130mmRocketWhitePhosphorus.description>
+  <MakeAmmo_130mmRocketWhitePhosphorus.jobString>Создание 130-мм ракету с белым фосфором.</MakeAmmo_130mmRocketWhitePhosphorus.jobString>
 
 
 </LanguageData>

@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-<Operation Class="PatchOperationAdd">
-		<xpath>Defs</xpath>
-		<value>
-		<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_bomb</defName>
-		<label>Bomb</label>
-		<description>Special bomb for defend.</description>
-		<defNames>		
-			<li>WhitePhosphorusBomb</li>
-			<li>NapalmBomb</li>
-		</defNames>
-		<designationCategory>Rimefeller</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-		</value>
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RocketLaunchers"]/defNames</xpath>
+				<value>
+				<li>SRLGun</li>
+				</value>
 	</Operation>
 	
-
+	
 	<Operation Class="PatchOperationAdd">
 				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
 				<value>
 				<li>TrapIED_HighFrag</li>
 				<li>TrapIED_WhitePhosphorus</li>
 				</value>
-			 </Operation>
+    </Operation>
 </Patch>
 
 

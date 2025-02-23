@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RocketHE</defName>
+		<label>High Explosive</label>
+		<labelShort>HE</labelShort>
+		<description>Designed to explode, damaging targets in a large area.</description>
+	</CombatExtended.AmmoCategoryDef>
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RocketFl</defName>
+		<label>Incendiary</label>
+		<labelShort>Fl</labelShort>
+		<description>Designed to spray a fiery mixture that hits targets over a large area.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+		<defName>RocketCL</defName>
+		<label>Сluster</label>
+		<labelShort>CL</labelShort>
+		<description>Designed to deliver a cluster bomb that hits a target over a large area.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+    <CombatExtended.AmmoCategoryDef>
+		<defName>RocketAM</defName>
+		<label>Antimaterial</label>
+		<labelShort>AM</labelShort>
+		<description>Designed to deliver bombs with antimatter particles that hit a target over a very large area.</description>
+    </CombatExtended.AmmoCategoryDef>
+	
+	 <CombatExtended.AmmoCategoryDef>
+		<defName>RocketEMP</defName>
+		<label>EMP</label>
+		<labelShort>EMP</labelShort>
+		<description>Designed to deliver bombs with EMP particles that hit a target over a very large area.</description>
+    </CombatExtended.AmmoCategoryDef>
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RocketNuclear</defName>
+		<label>Nuclear</label>
+		<labelShort>Nuclear</labelShort>
+		<description>Small nuclear warhead missile that hit a target over a very large area.</description>
+    </CombatExtended.AmmoCategoryDef>
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RocketDL</defName>
+		<label>DeadlifeDust</label>
+		<labelShort>HE</labelShort>
+		<description>Designed to explode Deadlife Dust, damaging targets in a large area.</description>
+	</CombatExtended.AmmoCategoryDef>
+	
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RocketWPS</defName>
+		<label>White phosphorus</label>
+		<labelShort>WPS</labelShort>
+		<description>Designed to explode White phosphorus, damaging targets in a large area.</description>
+	</CombatExtended.AmmoCategoryDef>
+</Defs>

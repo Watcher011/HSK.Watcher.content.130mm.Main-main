@@ -3,15 +3,11 @@
 
   <WhitePhosphorusInhalation.label>Белый фосфор</WhitePhosphorusInhalation.label>
   <WhitePhosphorusInhalation.description>Пары белого фосфора</WhitePhosphorusInhalation.description>
-  <WhitePhosphorusInhalation.stages.0.label>незначительный</WhitePhosphorusInhalation.stages.0.label>
-  <WhitePhosphorusInhalation.stages.1.label>умеренный</WhitePhosphorusInhalation.stages.1.label>
-  <WhitePhosphorusInhalation.stages.2.label>серьезный</WhitePhosphorusInhalation.stages.2.label>
-  <WhitePhosphorusInhalation.stages.3.label>экстремальный</WhitePhosphorusInhalation.stages.3.label>
+  <WhitePhosphorusInhalation.stages.0.label>незначительная</WhitePhosphorusInhalation.stages.0.label>
+  <WhitePhosphorusInhalation.stages.1.label>умеренная</WhitePhosphorusInhalation.stages.1.label>
+  <WhitePhosphorusInhalation.stages.2.label>тяжелая</WhitePhosphorusInhalation.stages.2.label>
+  <WhitePhosphorusInhalation.stages.3.label>экстремальная</WhitePhosphorusInhalation.stages.3.label>
   <WhitePhosphorusInhalation.labelNoun>получил ожог глаз от белого фосфора</WhitePhosphorusInhalation.labelNoun>
-
-  <PlagueMod.label>Био Чума</PlagueMod.label>
-  <PlagueMod.description>Усиленная версия Чумы.</PlagueMod.description>
-  <PlagueMod.stages.0.label>☣</PlagueMod.stages.0.label>
 
 
 </LanguageData>

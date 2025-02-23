@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TurretMortarBase">
+		<defName>SRLGun</defName>
+		<label>RGM-1 "Shtil" missile system</label>
+		<graphicData>
+			<texPath>Things/Building/Security/SRLGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/SRLGun_ico</uiIconPath>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>2800</WorkToBuild>
+			<Mass>100</Mass>
+			<Bulk>200</Bulk>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<description>The Heavy Missile System fires 1 missile at a target area with each volley. Fires over walls and needs to be manned. The turret explodes when heavily damaged.</description>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<RocketLauncherx1_Crate>1</RocketLauncherx1_Crate>
+		</costList>
+		<researchPrerequisites>
+			<li>Rockets_D1</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>35</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_SRL</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery</li>
+				<li>Artillery_BaseDestroyer</li>
+				<li>Artillery_MannedMortar</li>
+			</buildingTags>
+		</building>
+		<minifiedDef>Minified_RLGun</minifiedDef>	
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+<ThingDef ParentName="BaseGun_Turret">
+		<defName>Gun_SRL</defName>
+		<label>Singel Missile System</label>
+		<description>A mounted Singel missile system on a turret. Uses 1 rocket.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SRLGun_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPTUR</soundInteract>
+		<statBases>
+			<MarketValue>4200</MarketValue>
+			<SightsEfficiency>2.5</SightsEfficiency>
+			<ShotSpread>0.012</ShotSpread>
+			<SwayFactor>0.15</SwayFactor>
+			<RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Artillery</li>
+			<li>Artillery_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
+				<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
+				<!--<forcedMissRadius>6</forcedMissRadius>-->
+				<circularError>0.1</circularError>
+				<minRange>15</minRange>
+				<range>370</range>
+				<warmupTime>4.00</warmupTime>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>130mmRocket</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<indirectFirePenalty>0.02</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>8.00</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

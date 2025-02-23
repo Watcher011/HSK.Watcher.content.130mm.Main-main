@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <DamageDef Name="Nuclear">
+    <defName>NuclearB</defName>
+	<explosionCenterMote>Mote_NukeCloud</explosionCenterMote>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <defaultArmorPenetration>320</defaultArmorPenetration>
+	<buildingDamageFactor>30</buildingDamageFactor>
+    <plantDamageFactor>8</plantDamageFactor>
+  </DamageDef>
+
+</Defs>

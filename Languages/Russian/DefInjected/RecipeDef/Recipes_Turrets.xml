@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BuildRocketLauncherx1_Crate.label>Сделать детали РК RGM-1«Штиль»</BuildRocketLauncherx1_Crate.label>
+  <BuildRocketLauncherx1_Crate.description>Используйте это, чтобы построить ракетный комплекс «Штиль». Он использует ракеты 130 мм x1 в качестве боеприпасов.</BuildRocketLauncherx1_Crate.description>
+  <BuildRocketLauncherx1_Crate.jobString>Сборка 130-мм ракетного комплекса «Штиль»</BuildRocketLauncherx1_Crate.jobString>
+
+
+</LanguageData>

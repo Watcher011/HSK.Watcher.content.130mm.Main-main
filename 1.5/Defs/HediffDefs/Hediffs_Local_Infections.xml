@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>WhitePhosphorusInhalation</defName>
+		<label>WhitePhosphorus</label>
+		<description>White phosphorus vapor</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<labelNoun>got eye burn from white phosphorus</labelNoun>
+		<battleStateLabel>Choking</battleStateLabel>
+		<initialSeverity>0.01</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-0.5</severityPerDay>
+		  </li>
+		  <li Class="SK.HediffCompProperties_FleshOnly"/>
+		</comps>
+		<stages>
+		  <li>
+			<label>minor</label>
+			<painOffset>0.2</painOffset>
+			<minSeverity>0.1</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<setMax>0.9</setMax>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.1</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>moderate</label>
+			<painOffset>0.4</painOffset>
+			<minSeverity>0.4</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<setMax>0.7</setMax>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.25</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>severe</label>
+			<painOffset>0.6</painOffset>
+			<minSeverity>0.6</minSeverity>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<setMax>0.4</setMax>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.4</offset>
+			  </li>
+			</capMods>
+		  </li>
+		  <li>
+			<label>extreme</label>
+			<painOffset>0.8</painOffset>
+			<minSeverity>0.8</minSeverity>
+			 <statOffsets>
+                   <MoveSpeed>-0.8</MoveSpeed>
+				   <ArmorRating_Sharp>-1</ArmorRating_Sharp>
+                   <ArmorRating_Blunt>-1</ArmorRating_Blunt>
+                   <ArmorRating_Heat>-1</ArmorRating_Heat>
+				   <Flammability>2</Flammability>
+                </statOffsets>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<setMax>0.1</setMax>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.55</offset>
+			  </li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						<li>Lung</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						<li>Lung</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						 <li>Eye</li>
+					</partsToAffect>
+				</li>
+				<li Class="HediffGiver_Random">
+					<hediff>Burn</hediff>
+					<mtbDays>0.2</mtbDays>
+					<partsToAffect>
+						 <li>Eye</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		  </li>
+		</stages>
+  </HediffDef>
+</Defs>
