@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<!-- Боеприпасы -->
+<Ammo_50BMG_WhitePhosphorus.label>.50 BMG (Белый фосфор)</Ammo_50BMG_WhitePhosphorus.label>
+<Ammo_50BMG_WhitePhosphorus.description>Крупнокалиберный патрон для тяжелых пулемётов и противотанковых винтовок.</Ammo_50BMG_WhitePhosphorus.description>
 
-  <!-- Ammo -->
-
-  <Ammo_50BMG_WhitePhosphorus.label>.50 BMG (White Phosphorus)</Ammo_50BMG_WhitePhosphorus.label>
-  <Ammo_50BMG_WhitePhosphorus.description>Large caliber bullet used by many heavy machine guns and anti-materiel rifles.</Ammo_50BMG_WhitePhosphorus.description>
-
-
-  <!-- Projectiles -->
-
-  <Bullet_50BMG_WhitePhosphorus.label>.50 BMG bullet (WhitePhosphorus)</Bullet_50BMG_WhitePhosphorus.label>
-
+<!-- Пули -->
+<Bullet_50BMG_WhitePhosphorus.label>Пуля .50 BMG (Белый фосфор)</Bullet_50BMG_WhitePhosphorus.label>
 
 </LanguageData>

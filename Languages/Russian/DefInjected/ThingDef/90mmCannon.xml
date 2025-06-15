@@ -2,14 +2,10 @@
 <LanguageData>
 
   <!-- Ammo -->
+<Ammo_90mmCannonShell_WhitePhosphorus.label>90-мм артиллерийский снаряд (Белый фосфор)</Ammo_90mmCannonShell_WhitePhosphorus.label>
+<Ammo_90mmCannonShell_WhitePhosphorus.description>Сравнительно небольшой артиллерийский снаряд.</Ammo_90mmCannonShell_WhitePhosphorus.description>
 
-  <Ammo_90mmCannonShell_WhitePhosphorus.label>90mm cannon shell (WhitePhosphorus)</Ammo_90mmCannonShell_WhitePhosphorus.label>
-  <Ammo_90mmCannonShell_WhitePhosphorus.description>Relatively small cannon shell.</Ammo_90mmCannonShell_WhitePhosphorus.description>
-
-
-  <!-- Projectiles -->
-
-  <Bullet_90mmCannonShell_WhitePhosphorus.label>90mm cannon shell (WhitePhosphorus)</Bullet_90mmCannonShell_WhitePhosphorus.label>
-
+<!-- Снаряды -->
+<Bullet_90mmCannonShell_WhitePhosphorus.label>90-мм артиллерийский снаряд (Белый фосфор)</Bullet_90mmCannonShell_WhitePhosphorus.label>
 
 </LanguageData>

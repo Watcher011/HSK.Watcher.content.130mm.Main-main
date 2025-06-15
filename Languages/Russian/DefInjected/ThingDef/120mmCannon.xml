@@ -3,13 +3,11 @@
 
   <!-- Ammo -->
 
-  <Ammo_120mmCannonShell_WhitePhosphorus.label>120mm cannon shell (WhitePhosphorus)</Ammo_120mmCannonShell_WhitePhosphorus.label>
-  <Ammo_120mmCannonShell_WhitePhosphorus.description>Large cannon shells, typically used by 120mm smoothbore tank guns.</Ammo_120mmCannonShell_WhitePhosphorus.description>
+ <!-- Боеприпасы -->
+<Ammo_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Ammo_120mmCannonShell_WhitePhosphorus.label>
+<Ammo_120mmCannonShell_WhitePhosphorus.description>Крупнокалиберные снаряды для 120-мм гладкоствольных танковых орудий.</Ammo_120mmCannonShell_WhitePhosphorus.description>
 
-
-  <!-- Projectiles -->
-
-  <Bullet_120mmCannonShell_WhitePhosphorus.label>120mm cannon shell (WhitePhosphorus)</Bullet_120mmCannonShell_WhitePhosphorus.label>
-
+<!-- Снаряды -->
+<Bullet_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Bullet_120mmCannonShell_WhitePhosphorus.label>
 
 </LanguageData>

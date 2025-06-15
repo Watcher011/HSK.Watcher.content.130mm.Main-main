@@ -3,14 +3,14 @@
 
   <!-- Ammo -->
 
-  <Ammo_556x45mmNATO_Crio.label>5.56x45mm NATO (CR-I)</Ammo_556x45mmNATO_Crio.label>
-  <Ammo_556x45mmNATO_Nerve.label>5.56x45mm NATO (Nerve)</Ammo_556x45mmNATO_Nerve.label>
+  
+<Ammo_556x45mmNATO_Crio.label>5.56×45 мм НАТО (КР-И)</Ammo_556x45mmNATO_Crio.label>
+<Ammo_556x45mmNATO_Nerve.label>5.56×45 мм НАТО (Нервно-паралитический)</Ammo_556x45mmNATO_Nerve.label>
 
+<!-- Пули -->
 
-  <!-- Projectiles -->
-
-  <Bullet_556x45mmNATO_Nerve.label>5.56mm NATO bullet (Nerve)</Bullet_556x45mmNATO_Nerve.label>
-  <Bullet_556x45mmNATO_Crio.label>5.56mm NATO bullet (CR-I)</Bullet_556x45mmNATO_Crio.label>
+<Bullet_556x45mmNATO_Nerve.label>Пуля 5.56×45 мм (Нервно-паралитическая)</Bullet_556x45mmNATO_Nerve.label>
+<Bullet_556x45mmNATO_Crio.label>Пуля 5.56×45 мм (КР-И)</Bullet_556x45mmNATO_Crio.label>
 
 
 </LanguageData>
