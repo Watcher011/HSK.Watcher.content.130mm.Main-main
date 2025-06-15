@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_145x114mm_WhitePhosphorus.label>14.5x114mm (WhitePhosphorus)</Ammo_145x114mm_WhitePhosphorus.label>
+  <Ammo_145x114mm_WhitePhosphorus.description>Old-school anti-tank cartridge originally designed for AT rifles, it is also used by a number of heavy machine guns.</Ammo_145x114mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_145x114mm_WhitePhosphorus.label>14.5x114mm bullet (WhitePhosphorus)</Bullet_145x114mm_WhitePhosphorus.label>
+
+
+</LanguageData>

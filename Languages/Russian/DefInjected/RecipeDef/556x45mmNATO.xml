@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_556x45mmNATO_Crio.label>Сделать 5.56x45mm NATO (CR-I) картридж x80</MakeAmmo_556x45mmNATO_Crio.label>
+  <MakeAmmo_556x45mmNATO_Crio.description>Создать 80 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.description>
+  <MakeAmmo_556x45mmNATO_Crio.jobString>Создаёт 5.56x45mm NATO (CR-I) картридж.</MakeAmmo_556x45mmNATO_Crio.jobString>
+
+  <MakeAmmo_556x45mmNATO_Nerve.label>Сделать 5.56x45mm NATO (Nerve) картридж x60</MakeAmmo_556x45mmNATO_Nerve.label>
+  <MakeAmmo_556x45mmNATO_Nerve.description>Создать 80 5.56x45mm NATO (Nerve) картридж.</MakeAmmo_556x45mmNATO_Nerve.description>
+  <MakeAmmo_556x45mmNATO_Nerve.jobString>Создаёт 5.56x45mm NATO (Nerve) картридж.</MakeAmmo_556x45mmNATO_Nerve.jobString>
+
+
+</LanguageData>

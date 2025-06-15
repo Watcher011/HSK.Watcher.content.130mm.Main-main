@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.label>155mm Howitzer shell (WhitePhosphorus)</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.description>Large cannon shell used by howitzers.</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus.label>155mm Howitzer shell (WhitePhosphorus)</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
+
+
+  <!-- direct fire -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>155mm Howitzer shell (WhitePhosphorus)</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
+
+
+</LanguageData>

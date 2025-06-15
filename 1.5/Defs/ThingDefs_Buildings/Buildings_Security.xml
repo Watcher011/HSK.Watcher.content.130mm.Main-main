@@ -50,9 +50,9 @@
 			</buildingTags>
 		</building>
 		<minifiedDef>Minified_RLGun</minifiedDef>	
-		<thingCategories>
+		<!--<thingCategories>
 			<li>BuildingsSecurity</li>
-		</thingCategories>
+		</thingCategories>-->
 		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
 	</ThingDef>
 

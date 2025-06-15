@@ -38,7 +38,7 @@
 		<researchPrerequisites>
 			<li>Rockets_D2</li>
 		</researchPrerequisites>
-		<designationCategory>Security</designationCategory>
+		<!--<designationCategory>Security</designationCategory>-->
 		<specialDisplayRadius>35</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_SRL</turretGunDef>

@@ -20,8 +20,8 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
-			<Mass>400</Mass>
-			<Bulk>400</Bulk>
+			<Mass>100</Mass>
+			<Bulk>100</Bulk>
 		</statBases>
 		<thingCategories>
 			<li>WeaponCrate</li>
