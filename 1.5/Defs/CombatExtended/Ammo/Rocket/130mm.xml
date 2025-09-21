@@ -184,7 +184,7 @@
 			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
 			<gravityFactor>10</gravityFactor>
 			<shellingProps>
-				<iconPath>Things/WorldObjects/Munitions/Mortar</iconPath>
+				<iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
 				<tilesPerTick>0.06</tilesPerTick>
 				<range>10</range>
 			</shellingProps>
