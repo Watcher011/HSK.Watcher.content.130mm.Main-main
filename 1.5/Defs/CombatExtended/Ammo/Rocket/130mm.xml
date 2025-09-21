@@ -183,6 +183,11 @@
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>RocketPropelledLoop_Big</soundAmbient>
 			<gravityFactor>10</gravityFactor>
+			<shellingProps>
+				<iconPath>Things/WorldObjects/Munitions/Mortar</iconPath>
+				<tilesPerTick>0.06</tilesPerTick>
+				<range>10</range>
+			</shellingProps>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ProjectileFleck">
@@ -228,6 +233,9 @@
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<bulletChanceToStartFire>0.4</bulletChanceToStartFire>
+			<shellingProps>
+				<damage>0.85</damage>
+			</shellingProps>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_Fragments">
@@ -291,6 +299,9 @@
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>1.15</preExplosionSpawnChance>
 			<soundExplode>MortarIncendiary_Explode</soundExplode>
+			<shellingProps>
+				<damage>0.35</damage>
+			</shellingProps>
 		</projectile>
 	</ThingDef>
 	
@@ -349,6 +360,9 @@
 			<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
 			<postExplosionSpawnChance>0.01</postExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shellingProps>
+				<damage>1</damage>
+			</shellingProps>
 		</projectile>
 	</ThingDef>
 	
@@ -403,7 +417,7 @@
              <ai_IsIncendiary>true</ai_IsIncendiary>
             <aimHeightOffset>8</aimHeightOffset>
 			<shellingProps>
-				<damage>0.013</damage>
+				<damage>0.53</damage>
 			</shellingProps>
         </projectile>
 	    <comps>
@@ -435,7 +449,7 @@
              <ai_IsIncendiary>true</ai_IsIncendiary>
             <aimHeightOffset>8</aimHeightOffset>
 			<shellingProps>
-				<damage>0.013</damage>
+				<damage>0.43</damage>
 			</shellingProps>
         </projectile>
 	    <comps>
