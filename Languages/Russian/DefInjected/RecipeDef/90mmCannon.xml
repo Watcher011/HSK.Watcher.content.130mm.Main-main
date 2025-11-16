@@ -3,8 +3,9 @@
 
   <!-- Recipes -->
 
-<MakeAmmo_90mmCannonShell_WhitePhosphorus.label>изготовить 90-мм снаряды с белым фосфором x5</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>  
-<MakeAmmo_90mmCannonShell_WhitePhosphorus.description>Создать 5 90-мм снарядов с белым фосфором.</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>  
-<MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>Изготовление 90-мм снарядов с белым фосфором.</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>  
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.label>изготовить 90-мм снаряды с белым фосфором x5</MakeAmmo_90mmCannonShell_WhitePhosphorus.label>
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.description>Создать 5 90-мм снарядов с белым фосфором.</MakeAmmo_90mmCannonShell_WhitePhosphorus.description>
+  <MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>Изготовление 90-мм снарядов с белым фосфором.</MakeAmmo_90mmCannonShell_WhitePhosphorus.jobString>
+
 
 </LanguageData>

@@ -2,12 +2,16 @@
 <LanguageData>
 
   <!-- Ammo -->
-<Ammo_145x114mm_WhitePhosphorus.label>14.5×114 мм (Белый фосфор)</Ammo_145x114mm_WhitePhosphorus.label>
-<Ammo_145x114mm_WhitePhosphorus.description>Старый противотанковый патрон, изначально созданный для ПТР, также используемый некоторыми крупнокалиберными пулемётами.</Ammo_145x114mm_WhitePhosphorus.description>
 
-<!-- Боеприпасы -->
+  <Ammo_145x114mm_WhitePhosphorus.label>14.5×114 мм (Белый фосфор)</Ammo_145x114mm_WhitePhosphorus.label>
+  <Ammo_145x114mm_WhitePhosphorus.description>Старый противотанковый патрон, изначально созданный для ПТР, также используемый некоторыми крупнокалиберными пулемётами.</Ammo_145x114mm_WhitePhosphorus.description>
 
-<Bullet_145x114mm_WhitePhosphorus.label>Пуля 14.5×114 мм (Белый фосфор)</Bullet_145x114mm_WhitePhosphorus.label>
 
+  <!-- Projectiles -->
+
+  <Bullet_145x114mm_WhitePhosphorus.label>Пуля 14.5×114 мм (Белый фосфор)</Bullet_145x114mm_WhitePhosphorus.label>
+
+
+  <!-- Боеприпасы -->
 
 </LanguageData>

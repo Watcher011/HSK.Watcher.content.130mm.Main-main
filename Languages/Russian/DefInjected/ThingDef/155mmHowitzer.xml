@@ -3,16 +3,21 @@
 
   <!-- Ammo -->
 
- <Ammo_155mmHowitzerShell_WhitePhosphorus.label>155-мм гаубичный снаряд (Белый фосфор)</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
-<Ammo_155mmHowitzerShell_WhitePhosphorus.description>Крупнокалиберный артиллерийский снаряд для гаубиц.</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.label>155-мм гаубичный снаряд (Белый фосфор)</Ammo_155mmHowitzerShell_WhitePhosphorus.label>
+  <Ammo_155mmHowitzerShell_WhitePhosphorus.description>Крупнокалиберный артиллерийский снаряд для гаубиц.</Ammo_155mmHowitzerShell_WhitePhosphorus.description>
 
-<!-- Снаряды -->
 
-<Bullet_155mmHowitzerShell_WhitePhosphorus.label>155-мм гаубичный снаряд (Белый фосфор)</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
+  <!-- Projectiles -->
 
-<!-- Прямая наводка -->
+  <Bullet_155mmHowitzerShell_WhitePhosphorus.label>155-мм гаубичный снаряд (Белый фосфор)</Bullet_155mmHowitzerShell_WhitePhosphorus.label>
 
-<Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>155-мм гаубичный снаряд (Белый фосфор)</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
 
+  <!-- direct fire -->
+
+  <Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>155-мм гаубичный снаряд (Белый фосфор)</Bullet_155mmHowitzerShell_WhitePhosphorus_directfire.label>
+
+
+  <!-- Снаряды -->
+  <!-- Прямая наводка -->
 
 </LanguageData>

@@ -4,8 +4,8 @@
   <!-- Recipes -->
 
   <MakeAmmo_145x114mm_WhitePhosphorus.label>изготовить 14,5×114 мм (белый фосфор) ×30</MakeAmmo_145x114mm_WhitePhosphorus.label>
-<MakeAmmo_145x114mm_WhitePhosphorus.description>Создать 30 патронов 14,5×114 мм с белым фосфором.</MakeAmmo_145x114mm_WhitePhosphorus.description>
-<MakeAmmo_145x114mm_WhitePhosphorus.jobString>Изготовление 14,5×114 мм (белый фосфор) патронов.</MakeAmmo_145x114mm_WhitePhosphorus.jobString>
+  <MakeAmmo_145x114mm_WhitePhosphorus.description>Создать 30 патронов 14,5×114 мм с белым фосфором.</MakeAmmo_145x114mm_WhitePhosphorus.description>
+  <MakeAmmo_145x114mm_WhitePhosphorus.jobString>Изготовление 14,5×114 мм (белый фосфор) патронов.</MakeAmmo_145x114mm_WhitePhosphorus.jobString>
 
 
 </LanguageData>

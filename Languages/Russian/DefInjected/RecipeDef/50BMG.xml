@@ -2,7 +2,10 @@
 <LanguageData>
 
   <!-- Recipes -->
-<MakeAmmo_50BMG_WhitePhosphorus.label>изготовить патроны .50 BMG (Белый Фосфор) x30</MakeAmmo_50BMG_WhitePhosphorus.label>
-<MakeAmmo_50BMG_WhitePhosphorus.description>Создать 200 патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.description>
-<MakeAmmo_50BMG_WhitePhosphorus.jobString>Изготовление патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.jobString>
+
+  <MakeAmmo_50BMG_WhitePhosphorus.label>изготовить патроны .50 BMG (Белый Фосфор) x30</MakeAmmo_50BMG_WhitePhosphorus.label>
+  <MakeAmmo_50BMG_WhitePhosphorus.description>Создать 200 патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.description>
+  <MakeAmmo_50BMG_WhitePhosphorus.jobString>Изготовление патронов .50 BMG (Белый Фосфор).</MakeAmmo_50BMG_WhitePhosphorus.jobString>
+
+
 </LanguageData>

@@ -1,10 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<!-- Боеприпасы -->
-<Ammo_50BMG_WhitePhosphorus.label>.50 BMG (Белый фосфор)</Ammo_50BMG_WhitePhosphorus.label>
-<Ammo_50BMG_WhitePhosphorus.description>Крупнокалиберный патрон для тяжелых пулемётов и противотанковых винтовок.</Ammo_50BMG_WhitePhosphorus.description>
 
-<!-- Пули -->
-<Bullet_50BMG_WhitePhosphorus.label>Пуля .50 BMG (Белый фосфор)</Bullet_50BMG_WhitePhosphorus.label>
+  <!-- Ammo -->
+
+  <Ammo_50BMG_WhitePhosphorus.label>.50 BMG (Белый фосфор)</Ammo_50BMG_WhitePhosphorus.label>
+  <Ammo_50BMG_WhitePhosphorus.description>Крупнокалиберный патрон для тяжелых пулемётов и противотанковых винтовок.</Ammo_50BMG_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_50BMG_WhitePhosphorus.label>Пуля .50 BMG (Белый фосфор)</Bullet_50BMG_WhitePhosphorus.label>
+
+
+  <!-- Боеприпасы -->
+  <!-- Пули -->
 
 </LanguageData>

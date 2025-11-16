@@ -2,9 +2,10 @@
 <LanguageData>
 
   <!-- Recipes -->
-<MakeAmmo_120mmCannonShell_WhitePhosphorus.label>изготовить 120-мм фосфорные снаряды x2</MakeAmmo_120mmCannonShell_WhitePhosphorus.label>
-<MakeAmmo_120mmCannonShell_WhitePhosphorus.description>Создать 2 120-мм фосфорных снаряда.</MakeAmmo_120mmCannonShell_WhitePhosphorus.description>
-<MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>Изготовление 120-мм фосфорных снарядов.</MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>
+
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.label>изготовить 120-мм фосфорные снаряды x2</MakeAmmo_120mmCannonShell_WhitePhosphorus.label>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.description>Создать 2 120-мм фосфорных снаряда.</MakeAmmo_120mmCannonShell_WhitePhosphorus.description>
+  <MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>Изготовление 120-мм фосфорных снарядов.</MakeAmmo_120mmCannonShell_WhitePhosphorus.jobString>
 
 
 </LanguageData>

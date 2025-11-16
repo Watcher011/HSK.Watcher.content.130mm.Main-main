@@ -3,13 +3,13 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_762x39mmSoviet_Crio.label>Сделать 7.62x39mm Soviet (CR-I) картридж x80</MakeAmmo_762x39mmSoviet_Crio.label>
-  <MakeAmmo_762x39mmSoviet_Crio.description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.description>
-  <MakeAmmo_762x39mmSoviet_Crio.jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.jobString>
-
   <MakeAmmo_762x39mmSoviet_Nerve.label>Сделать 7.62x39mm Soviet (Нервно-паралитическая) картридж x80</MakeAmmo_762x39mmSoviet_Nerve.label>
   <MakeAmmo_762x39mmSoviet_Nerve.description>Создать 80 7.62x39mm Soviet (Нервно-паралитическая) картридж.</MakeAmmo_762x39mmSoviet_Nerve.description>
   <MakeAmmo_762x39mmSoviet_Nerve.jobString>Создаёт 7.62x39mm Soviet (Нервно-паралитическая) картридж.</MakeAmmo_762x39mmSoviet_Nerve.jobString>
 
+
+  <!--<MakeAmmo_762x39mmSoviet_Crio.label>Сделать 7.62x39mm Soviet (CR-I) картридж x80</MakeAmmo_762x39mmSoviet_Crio.label>-->
+  <!--<MakeAmmo_762x39mmSoviet_Crio.description>Создать 80 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.description>-->
+  <!--<MakeAmmo_762x39mmSoviet_Crio.jobString>Создаёт 7.62x39mm Soviet (CR-I) картридж.</MakeAmmo_762x39mmSoviet_Crio.jobString>-->
 
 </LanguageData>

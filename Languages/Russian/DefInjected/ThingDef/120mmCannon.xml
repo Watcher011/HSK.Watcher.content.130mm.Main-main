@@ -3,11 +3,16 @@
 
   <!-- Ammo -->
 
- <!-- Боеприпасы -->
-<Ammo_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Ammo_120mmCannonShell_WhitePhosphorus.label>
-<Ammo_120mmCannonShell_WhitePhosphorus.description>Крупнокалиберные снаряды для 120-мм гладкоствольных танковых орудий.</Ammo_120mmCannonShell_WhitePhosphorus.description>
+  <Ammo_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Ammo_120mmCannonShell_WhitePhosphorus.label>
+  <Ammo_120mmCannonShell_WhitePhosphorus.description>Крупнокалиберные снаряды для 120-мм гладкоствольных танковых орудий.</Ammo_120mmCannonShell_WhitePhosphorus.description>
 
-<!-- Снаряды -->
-<Bullet_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+  <!-- Projectiles -->
+
+  <Bullet_120mmCannonShell_WhitePhosphorus.label>120-мм танковый снаряд (Белый фосфор)</Bullet_120mmCannonShell_WhitePhosphorus.label>
+
+
+  <!-- Боеприпасы -->
+  <!-- Снаряды -->
 
 </LanguageData>

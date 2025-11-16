@@ -2,8 +2,10 @@
 <LanguageData>
 
   <!-- Recipes -->
-<MakeAmmo_30x173mm_WhitePhosphorus.label>изготовить  30×173 мм (белый фосфор) ×30</MakeAmmo_30x173mm_WhitePhosphorus.label>
-<MakeAmmo_30x173mm_WhitePhosphorus.description>Создать 30 снарядов 30×173 мм с белофосфорным зарядом.</MakeAmmo_30x173mm_WhitePhosphorus.description>
-<MakeAmmo_30x173mm_WhitePhosphorus.jobString>Изготовление 30×173 мм (белый фосфор) боеприпасов.</MakeAmmo_30x173mm_WhitePhosphorus.jobString>
+
+  <MakeAmmo_30x173mm_WhitePhosphorus.label>изготовить  30×173 мм (белый фосфор) ×30</MakeAmmo_30x173mm_WhitePhosphorus.label>
+  <MakeAmmo_30x173mm_WhitePhosphorus.description>Создать 30 снарядов 30×173 мм с белофосфорным зарядом.</MakeAmmo_30x173mm_WhitePhosphorus.description>
+  <MakeAmmo_30x173mm_WhitePhosphorus.jobString>Изготовление 30×173 мм (белый фосфор) боеприпасов.</MakeAmmo_30x173mm_WhitePhosphorus.jobString>
+
 
 </LanguageData>

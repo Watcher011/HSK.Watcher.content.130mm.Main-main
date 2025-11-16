@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+<MakeAmmo_UnguidedRocket.label>изготовить Неуправляемую Ракету (Осколочная) x10</MakeAmmo_UnguidedRocket.label>
+<MakeAmmo_UnguidedRocket.description>Изготовить Неуправляемую Ракету (Осколочная).</MakeAmmo_UnguidedRocket.description>
+<MakeAmmo_UnguidedRocket.jobString>Изготавливает Неуправляемую Ракету (Осколочная).</MakeAmmo_UnguidedRocket.jobString>
+
+
+</LanguageData>

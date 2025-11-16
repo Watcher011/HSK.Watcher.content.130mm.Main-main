@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_MLRSCannon</defName>
+      <label>Mech. MLRS Cannon</label>
+	  <description>MLRS-artillery device. Mechanoid-built.</description>
+        <graphicData>
+            <texPath>Things/Weapons/MLRS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <statBases>
+            <MarketValue>4800</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>1.15</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <Bulk>6</Bulk>
+            <Mass>200</Mass>
+        </statBases>
+        <generateCommonality>0.7</generateCommonality>
+        <weaponTags>
+         <li>MLRS</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Launchers</li>
+        </thingCategories>
+        <verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
+				<defaultProjectile>Bullet_UnguidedRocketMech</defaultProjectile>
+				<!--<forcedMissRadius>6</forcedMissRadius>-->
+				<circularError>1.1</circularError>
+				<minRange>5</minRange>
+				<range>270</range>
+				<warmupTime>29.00</warmupTime>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>130mmRocket</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<indirectFirePenalty>0.02</indirectFirePenalty>
+				<consumeFuelPerShot>0.01</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>18</magazineSize>
+				<reloadTime>30.00</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_UnguidedRocket</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.5,1.5</DrawSize>
+				<DrawOffset>-0.3,0.0</DrawOffset>
+			</li>
+		</modExtensions>
+        <smeltProducts>
+            <Launcher_Component>1</Launcher_Component>
+            <Weapon_Parts>3</Weapon_Parts>
+            <Plastic>6</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+
+</Defs>

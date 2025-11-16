@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Ammo_762x39mmSoviet_Crio.label>7.62×39 мм Советский (КР-И)</Ammo_762x39mmSoviet_Crio.label>
-<Ammo_762x39mmSoviet_Nerve.label>7.62×39 мм Советский (Нервно-паралитический)</Ammo_762x39mmSoviet_Nerve.label>
+  <!-- Ammo -->
 
-<!-- Пули -->
+  <Ammo_762x39mmSoviet_Nerve.label>7.62×39 мм Советский (Нервно-паралитический)</Ammo_762x39mmSoviet_Nerve.label>
 
-<Bullet_762x39mmSoviet_Crio.label>Пуля 7.62×39 мм (ББ-И)</Bullet_762x39mmSoviet_Crio.label>
-<Bullet_762x39mmSoviet_Nerve.label>Пуля 7.62×39 мм (Нервно-паралитическая)</Bullet_762x39mmSoviet_Nerve.label>
 
+  <!-- Projectiles -->
+
+  <Bullet_762x39mmSoviet_Nerve.label>Пуля 7.62×39 мм (Нервно-паралитическая)</Bullet_762x39mmSoviet_Nerve.label>
+
+
+  <!--<Ammo_762x39mmSoviet_Crio.label>7.62×39 мм Советский (КР-И)</Ammo_762x39mmSoviet_Crio.label>-->
+  <!-- Пули -->
+  <!--<Bullet_762x39mmSoviet_Crio.label>Пуля 7.62×39 мм (ББ-И)</Bullet_762x39mmSoviet_Crio.label>-->
 
 </LanguageData>

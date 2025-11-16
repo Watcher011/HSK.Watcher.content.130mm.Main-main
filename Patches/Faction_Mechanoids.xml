@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>//FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[commonality=100]/options</xpath>
+        <value>
+            <Mech_CentipedeMLRS>40</Mech_CentipedeMLRS>
+        </value>
+    </Operation>
+
+    <!-- 2. Ranged only -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>//FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[commonality=35]/options</xpath>
+        <value>
+            <Mech_CentipedeMLRS>40</Mech_CentipedeMLRS>
+        </value>
+    </Operation>
+
+    <!-- 3. Centipedes only -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>//FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[commonality=37]/options</xpath>
+        <value>
+            <Mech_CentipedeMLRS>40</Mech_CentipedeMLRS>
+        </value>
+    </Operation>
+
+    <!-- 4. Fast types -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>//FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[commonality=70]/options</xpath>
+        <value>
+            <Mech_CentipedeMLRS>25</Mech_CentipedeMLRS>
+        </value>
+    </Operation>
+
+    <!-- 5. Breach raids -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>//FactionDef[defName="Mechanoid"]/pawnGroupMakers/li[commonality=3]/options</xpath>
+        <value>
+            <Mech_CentipedeMLRS>15</Mech_CentipedeMLRS>
+        </value>
+    </Operation>
+</Patch>

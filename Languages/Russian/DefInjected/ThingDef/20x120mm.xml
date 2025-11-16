@@ -1,10 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Ammo_20x102mm_WhitePhosphorus.label>20×102 мм патрон (Белый фосфор)</Ammo_20x102mm_WhitePhosphorus.label>
-<Ammo_20x102mm_WhitePhosphorus.description>Боеприпас калибра 20 мм для автоматических авиационных пушек и зенитных установок.</Ammo_20x102mm_WhitePhosphorus.description>
+  <!-- Ammo -->
 
-<!-- Снаряды -->
-<Bullet_20x102mm_WhitePhosphorus.label>Снаряд 20×102 мм (Белый фосфор)</Bullet_20x102mm_WhitePhosphorus.label>
+  <Ammo_20x102mm_WhitePhosphorus.label>20×102 мм патрон (Белый фосфор)</Ammo_20x102mm_WhitePhosphorus.label>
+  <Ammo_20x102mm_WhitePhosphorus.description>Боеприпас калибра 20 мм для автоматических авиационных пушек и зенитных установок.</Ammo_20x102mm_WhitePhosphorus.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_20x102mm_WhitePhosphorus.label>Снаряд 20×102 мм (Белый фосфор)</Bullet_20x102mm_WhitePhosphorus.label>
+
+
+  <!-- Снаряды -->
 
 </LanguageData>
