@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <EMP.label>EMP</EMP.label>
+  <EMP.labelShort>EMP</EMP.labelShort>
+  <EMP.description>EMP</EMP.description>
+
   <RocketHE.label>Фугасный</RocketHE.label>
   <RocketHE.labelShort>HE</RocketHE.labelShort>
   <RocketHE.description>Предназначен для взрыва, поражая цели на большой площади.</RocketHE.description>

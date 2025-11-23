@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Mech_CentipedeMLRS.label>Нурсипеда</Mech_CentipedeMLRS.label>
-<Mech_CentipedeMLRS.labelPlural>Нурсипеды</Mech_CentipedeMLRS.labelPlural>
-<Mech_CentipedeMLRS.lifeStages.0.label>Нурсипеда</Mech_CentipedeMLRS.lifeStages.0.label>
-<Mech_CentipedeMLRS.lifeStages.0.labelPlural>Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelPlural>
-<Mech_CentipedeMLRS.lifeStages.0.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelMale>
-<Mech_CentipedeMLRS.lifeStages.0.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelMalePlural>
-<Mech_CentipedeMLRS.lifeStages.0.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelFemale>
-<Mech_CentipedeMLRS.lifeStages.0.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelFemalePlural>
-<Mech_CentipedeMLRS.lifeStages.1.label>Нурсипеда</Mech_CentipedeMLRS.lifeStages.1.label>
-<Mech_CentipedeMLRS.lifeStages.1.labelPlural>Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelPlural>
-<Mech_CentipedeMLRS.lifeStages.1.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelMale>
-<Mech_CentipedeMLRS.lifeStages.1.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelMalePlural>
-<Mech_CentipedeMLRS.lifeStages.1.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelFemale>
-<Mech_CentipedeMLRS.lifeStages.1.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelFemalePlural>
-<Mech_CentipedeMLRS.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.labelMale>
-<Mech_CentipedeMLRS.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.labelMalePlural>
-<Mech_CentipedeMLRS.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.labelFemale>
-<Mech_CentipedeMLRS.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.labelFemalePlural>
+  <Mech_CentipedeMLRS.label>Нурсипеда</Mech_CentipedeMLRS.label>
+  <Mech_CentipedeMLRS.labelPlural>Нурсипеды</Mech_CentipedeMLRS.labelPlural>
+  <Mech_CentipedeMLRS.lifeStages.0.label>Нурсипеда</Mech_CentipedeMLRS.lifeStages.0.label>
+  <Mech_CentipedeMLRS.lifeStages.0.labelPlural>Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelPlural>
+  <Mech_CentipedeMLRS.lifeStages.0.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelMale>
+  <Mech_CentipedeMLRS.lifeStages.0.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelMalePlural>
+  <Mech_CentipedeMLRS.lifeStages.0.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelFemale>
+  <Mech_CentipedeMLRS.lifeStages.0.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.lifeStages.0.labelFemalePlural>
+  <Mech_CentipedeMLRS.lifeStages.1.label>Нурсипеда</Mech_CentipedeMLRS.lifeStages.1.label>
+  <Mech_CentipedeMLRS.lifeStages.1.labelPlural>Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelPlural>
+  <Mech_CentipedeMLRS.lifeStages.1.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelMale>
+  <Mech_CentipedeMLRS.lifeStages.1.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelMalePlural>
+  <Mech_CentipedeMLRS.lifeStages.1.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelFemale>
+  <Mech_CentipedeMLRS.lifeStages.1.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.lifeStages.1.labelFemalePlural>
+  <Mech_CentipedeMLRS.labelMale>самец Нурсипеды</Mech_CentipedeMLRS.labelMale>
+  <Mech_CentipedeMLRS.labelMalePlural>самцы Нурсипеды</Mech_CentipedeMLRS.labelMalePlural>
+  <Mech_CentipedeMLRS.labelFemale>самка Нурсипеды</Mech_CentipedeMLRS.labelFemale>
+  <Mech_CentipedeMLRS.labelFemalePlural>самки Нурсипеды</Mech_CentipedeMLRS.labelFemalePlural>
 
 
 </LanguageData>

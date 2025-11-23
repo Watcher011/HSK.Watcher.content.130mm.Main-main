@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_762x51mmNATO_EMI.label>изготовить 7,62x51 мм NATO (EMI) x50</MakeAmmo_762x51mmNATO_EMI.label> 
+<MakeAmmo_762x51mmNATO_EMI.description>Создать 50 патронов 7,62x51 мм NATO (EMI).</MakeAmmo_762x51mmNATO_EMI.description> 
+<MakeAmmo_762x51mmNATO_EMI.jobString>Изготовление патронов 7,62x51 мм NATO (EMI).</MakeAmmo_762x51mmNATO_EMI.jobString>
+
+
+</LanguageData>

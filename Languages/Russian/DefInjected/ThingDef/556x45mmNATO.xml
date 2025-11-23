@@ -4,11 +4,13 @@
   <!-- Ammo -->
 
   <Ammo_556x45mmNATO_Nerve.label>5.56×45 мм НАТО (Нервно-паралитический)</Ammo_556x45mmNATO_Nerve.label>
+  <Ammo_556x45mmNATO_EMI.label>5.56x45mm NATO (EMI)</Ammo_556x45mmNATO_EMI.label>
 
 
   <!-- Projectiles -->
 
   <Bullet_556x45mmNATO_Nerve.label>Пуля 5.56×45 мм (Нервно-паралитическая)</Bullet_556x45mmNATO_Nerve.label>
+  <Bullet_556x45mmNATO_EMI.label>5.56mm NATO bullet (EMI)</Bullet_556x45mmNATO_EMI.label>
 
 
   <!--<Ammo_556x45mmNATO_Crio.label>5.56×45 мм НАТО (КР-И)</Ammo_556x45mmNATO_Crio.label>-->

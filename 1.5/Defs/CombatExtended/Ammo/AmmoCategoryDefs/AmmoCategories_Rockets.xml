@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	 <CombatExtended.AmmoCategoryDef>
+		<defName>EMP</defName>
+		<label>EMP</label>
+		<labelShort>EMP</labelShort>
+		<description>EMP</description>
+    </CombatExtended.AmmoCategoryDef>
 	
 	<CombatExtended.AmmoCategoryDef>
 		<defName>RocketHE</defName>
