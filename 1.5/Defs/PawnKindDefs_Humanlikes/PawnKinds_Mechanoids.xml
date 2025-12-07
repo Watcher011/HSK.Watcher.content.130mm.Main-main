@@ -4,7 +4,7 @@
 	<PawnKindDef ParentName="SK_BaseMechCentipedeKind">
 		<defName>Mech_CentipedeMLRS</defName>
 		<label>Centipede suppressor</label>
-		<race>Mech_CentipedeBlaster</race>
+		<race>Mech_CentipedeBurner</race>
 		<combatPower>990</combatPower>
 		<lifeStages Inherit="False">
 			<li MayRequire="Ludeon.RimWorld.Biotech">
