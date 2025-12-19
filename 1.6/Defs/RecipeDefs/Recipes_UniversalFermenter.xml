@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>ExtractPhosphorus</defName>
+    <label>Production of white phosphorus</label>
+    <description>Production of white phosphorus</description>
+    <jobString>Receives white phosphorus.</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nitre</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Nitre</li>
+				<li>Sulfur</li>
+			</thingDefs>	  
+		</fixedIngredientFilter>
+    <products>
+     <WhitePhosphorus>45</WhitePhosphorus>
+    </products>
+  </RecipeDef>
+</Defs>

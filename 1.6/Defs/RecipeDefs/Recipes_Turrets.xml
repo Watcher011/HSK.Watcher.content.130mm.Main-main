@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>BuildRocketLauncherx1_Crate</defName>
+		<label>Build 130mm Shtil Missile System crate</label>
+		<description>Use this to build a Shtil Missile System, a type of stationary manned turret. It uses 130mmx1 missiles for ammo.</description>
+		<jobString>Building 130mm Shtil Missile System crate.</jobString>
+		<workAmount>9500</workAmount>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				<categories>
+				<li>Metallic</li>
+                  </categories>
+				</filter>
+				<count>45</count>
+			</li>
+		</ingredients>
+		<products>
+			<RocketLauncherx1_Crate>1</RocketLauncherx1_Crate>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Weapon_Parts</li>
+			<li>Launcher_Component</li>
+			</thingDefs>
+			<categories>
+			<li>SLDBar</li>
+			<li>USLDBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>Rockets_D2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+</Defs>

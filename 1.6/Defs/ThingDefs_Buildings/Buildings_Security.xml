@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TurretMortarBase">
+		<defName>SRLGun</defName>
+		<label>RGM-1 "Shtil" missile system</label>
+		<graphicData>
+			<texPath>Things/Building/Security/SRLGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/SRLGun_ico</uiIconPath>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>2800</WorkToBuild>
+			<Mass>100</Mass>
+			<Bulk>200</Bulk>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<description>The Heavy Missile System fires 1 missile at a target area with each volley. Fires over walls and needs to be manned. The turret explodes when heavily damaged.</description>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<RocketLauncherx1_Crate>1</RocketLauncherx1_Crate>
+		</costList>
+		<researchPrerequisites>
+			<li>Rockets_D1</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>35</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_SRL</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery</li>
+				<li>Artillery_BaseDestroyer</li>
+				<li>Artillery_MannedMortar</li>
+			</buildingTags>
+		</building>
+		<minifiedDef>Minified_RLGun</minifiedDef>	
+		<!--<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>-->
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+<ThingDef ParentName="BaseGun_Turret">
+		<defName>Gun_SRL</defName>
+		<label>Singel Missile System</label>
+		<description>A mounted Singel missile system on a turret. Uses 1 rocket.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SRLGun_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPTUR</soundInteract>
+		<statBases>
+			<MarketValue>4200</MarketValue>
+			<SightsEfficiency>2.5</SightsEfficiency>
+			<ShotSpread>0.012</ShotSpread>
+			<SwayFactor>0.15</SwayFactor>
+			<RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Artillery</li>
+			<li>Artillery_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
+				<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
+				<!--<forcedMissRadius>6</forcedMissRadius>-->
+				<circularError>0.1</circularError>
+				<minRange>15</minRange>
+				<range>370</range>
+				<warmupTime>4.00</warmupTime>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>130mmRocket</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<indirectFirePenalty>0.02</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>8.00</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+	</ThingDef>
+<ThingDef ParentName="TurretMortarBase">
+		<defName>MLRSGun</defName>
+		<label>Homemade MLRS "Peace"</label>
+		<graphicData>
+			<texPath>Things/Building/Security/MLRS_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.5,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MLRS_ico</uiIconPath>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>2800</WorkToBuild>
+			<Mass>100</Mass>
+			<Bulk>200</Bulk>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Mending Kit</fuelLabel>
+			<fuelGizmoLabel>Condition of the weapon</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot :Repairs needed</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>MendingKit</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Resource/MendingKit</fuelIconPath>
+		  </li>
+		</comps>
+		<description>"In this ruthless world, there are two forms of peace: that achieved through fragile diplomatic agreements, and that dictated by absolute, irrefutable arguments. The Peace Launcher is the quintessential example of the latter. Constructed from beams, armor plates, and brute force, it houses 107mm rockets, ready to deliver your final answer anywhere on the map. Its salvo allows no discussion, recognizes no truce, and leaves no room for negotiation. It simply erases the issue—and everything within a few dozen meters of it. WARNING: The shell spread is a design feature to ensure maximum coverage of the "persuasion" zone. The crew should be prepared to withdraw immediately, as the salvo clearly announces the location of your diplomatic mission."</description>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Mortar_Crate>1</Mortar_Crate>
+		</costList>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>35</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_MLRS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery</li>
+				<li>Artillery_BaseDestroyer</li>
+				<li>Artillery_MannedMortar</li>
+			</buildingTags>
+		</building>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<minifiedDef>Minified_RLGun</minifiedDef>	
+		<!--<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>-->
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+<ThingDef ParentName="BaseGun_Turret">
+		<defName>Gun_MLRS</defName>
+		<label> Missile System</label>
+		<description>A mounted  missile system on a turret. Uses 18 rocket.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/MLRS_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPTUR</soundInteract>
+		<statBases>
+			<MarketValue>4200</MarketValue>
+			<SightsEfficiency>2.5</SightsEfficiency>
+			<ShotSpread>1.92</ShotSpread>
+			<SwayFactor>1.75</SwayFactor>
+			<RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Artillery</li>
+			<li>Artillery_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
+				<defaultProjectile>Bullet_UnguidedRocket</defaultProjectile>
+				<!--<forcedMissRadius>6</forcedMissRadius>-->
+				<circularError>1.1</circularError>
+				<minRange>15</minRange>
+				<range>370</range>
+				<warmupTime>9.00</warmupTime>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>130mmRocket</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<indirectFirePenalty>0.02</indirectFirePenalty>
+				<consumeFuelPerShot>0.01</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>18</magazineSize>
+				<reloadTime>30.00</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_UnguidedRocket</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="MechCentipedeBase">
+		<defName>Mech_CentipedeMLRS</defName>
+		<label>Centipede suppressor</label>
+		<race>Mech_CentipedeBurner</race>
+		<combatPower>990</combatPower>
+		<lifeStages Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CentipedeBurnerClean</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CentipedeBurner</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CentipedeBurner</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/CentipedeBurner</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	<!--	<weaponMoney>
+        <min>8000</min>
+        <max>9000</max>
+         </weaponMoney>-->
+		<weaponTags>
+			<li>MLRS</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>20</min>
+					<max>50</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>
